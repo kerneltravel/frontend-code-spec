@@ -1,4 +1,4 @@
-# frontend-code-spec
+# Frontend-Code-Spec
 
 > 中模网前端编码规范
 
