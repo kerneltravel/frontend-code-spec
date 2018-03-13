@@ -1,0 +1,21 @@
+[{
+    "id": "0",
+    "link": "Common",
+    "name": "通用约定"
+}, {
+    "id": "1",
+    "link": "HTML",
+    "name": "HTML 规范"
+}, {
+    "id": "2",
+    "link": "CSS",
+    "name": "CSS 规范"
+}, {
+    "id": "3",
+    "link": "JavaScript",
+    "name": "JavaScript 规范"
+}, {
+    "id": "4",
+    "link": "Image",
+    "name": "图片规范"
+}]

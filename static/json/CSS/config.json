@@ -1,0 +1,18 @@
+[{
+    "nav": [{
+        "parent": [{
+            "id": "0",
+            "link": "CSS",
+            "name": "CSS规范"
+        }]
+    }],
+    "artilce": [{
+        "id": "0",
+        "link": "test1",
+        "name": "css-1"
+    }, {
+        "id": "0",
+        "link": "test2",
+        "name": "css-1"
+    }]
+}]
