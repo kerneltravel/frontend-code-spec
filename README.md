@@ -1,6 +1,6 @@
 # code-spec
 
-> A Vue.js project
+> 中模网前端编码规范
 
 ## Build Setup
 
