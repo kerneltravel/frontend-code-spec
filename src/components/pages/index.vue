@@ -7,7 +7,7 @@
             <h1 class="head-title">{{ title }}</h1>
             <h2 class="head-sub-title">{{ subTitle }}</h2>
             <p class="head-link">
-                <router-link to="/post">开始使用</router-link>
+                <router-link to="/post">开始使用test</router-link>
             </p>
             <p class="head-info">
                 <span>当前版本：{{ version }}</span>
