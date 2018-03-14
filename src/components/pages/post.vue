@@ -65,6 +65,7 @@ export default {
             Axios.get('./static/json/' + parentsLink + '/config.json')
                 .then(respones => {
                     if (respones.data[0].nav[0].child === undefined) {
+                        
                         this.getJson(parentsLink, respones.data[0].artilce);
                         // for (var i = 0; i < respones.data[0].artilce.length; i++) {
                         //     Axios.get('./static/json/' + parentsLink + '/' + respones.data[0].artilce[i].link + '.json')
@@ -76,7 +77,7 @@ export default {
                         // }
                     } else {
                         this.getJson(parentsLink, respones.data[0].artilce);
-                        
+
                         for (var i = 0; i < respones.data[0].nav[0].child[0].artilce.length; i++) {
                             Axios.get('./static/json/' + parentsLink + '/' + respones.data[0].nav[0].child[0].link + '/' + respones.data[0].nav[0].child[0].artilce[i].link + '.json')
                                 .then(res => {
