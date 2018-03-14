@@ -15,9 +15,6 @@
                     <p>{{ item.content }}</p>
                     <hr>
                 </div>
-                <!-- <div :class="{on: isShow ? isShow : 'xxx' }">
-                    {{ isShow }}
-                </div> -->
             </Article>
         </main>
     </div>
