@@ -4,17 +4,20 @@
         <main class="wrap">
             <aside>
                 <ul>
-                    <li v-for="(item, index) in sideNav" :key="index" @click="getJson(item.link, index)" :class="{active: index === nowIndex}">
+                    <li v-for="(item, index) in sideNav" :key="index" @click="getJsonData(item.link, index)" :class="{active: index === nowIndex}">
                         {{ item.name }}
                     </li>
                 </ul>
             </aside>
             <Article>
-                <div v-for="(item, index) in myJson" :key="index">
+                <div v-for="(item, index) in jsonData" :key="index">
                     <h3>{{ item.title }}</h3>
                     <p>{{ item.content }}</p>
                     <hr>
                 </div>
+                <!-- <div :class="{on: isShow ? isShow : 'xxx' }">
+                    {{ isShow }}
+                </div> -->
             </Article>
         </main>
     </div>
@@ -34,9 +37,8 @@ export default {
     data() {
         return {
             sideNav: [],
-            myJson: [],
-            flag: false,
-            nowIndex: ''
+            jsonData: [],
+            nowIndex: 0
         };
     },
     created() {
@@ -45,45 +47,51 @@ export default {
                 return this.sideNav = respones.data;
             });
     },
+    computed: {
+        
+    },
     methods: {
-        getJson: function (parentsLink, index) {
-            if (!this.flag) {
-                Axios.get('./static/json/' + parentsLink + '/config.json')
-                    .then(respones => {
-                        if (respones.data[0].nav[0].child === undefined) {
-                            for (var i = 0; i < respones.data[0].artilce.length; i++) {
-                                Axios.get('./static/json/' + parentsLink + '/' + respones.data[0].artilce[i].link + '.json')
-                                    .then(res => {
-                                        return this.myJson.push(res.data[0]);
-                                    }).catch(function (err) {
-                                        console.log(err);
-                                    })
-                            }
-                        } else {
-                            for (var i = 0; i < respones.data[0].artilce.length; i++) {
-                                Axios.get('./static/json/' + parentsLink + '/' + respones.data[0].artilce[i].link + '.json')
-                                    .then(res => {
-                                        return this.myJson.push(res.data[0]);
-                                    }).catch(function (err) {
-                                        console.log(err);
-                                    })
-                            }
-                            for (var i = 0; i < respones.data[0].nav[0].child[0].artilce.length; i++) {
-                                Axios.get('./static/json/' + parentsLink + '/' + respones.data[0].nav[0].child[0].link + '/' + respones.data[0].nav[0].child[0].artilce[i].link + '.json')
-                                    .then(res => {
-                                        return this.myJson.push(res.data[0]);
-                                    }).catch(function (err) {
-                                        console.log(err);
-                                    })
-                            }
-                        }
-                    })
-                    .catch(function (err) {
+        getJson: function (parentsLink, url) {
+            for (var i = 0; i < url.length; i++) {
+                Axios.get('./static/json/' + parentsLink + '/' + url[i].link + '.json')
+                    .then(res => {
+                        return this.jsonData.push(res.data[0]);
+                    }).catch(function (err) {
                         console.log(err);
                     })
             }
-            // this.flag = true;
-            this.nowIndex = index;
+        },
+        getJsonData: function (parentsLink, index) {
+            Axios.get('./static/json/' + parentsLink + '/config.json')
+                .then(respones => {
+                    if (respones.data[0].nav[0].child === undefined) {
+                        this.getJson(parentsLink, respones.data[0].artilce);
+                        // for (var i = 0; i < respones.data[0].artilce.length; i++) {
+                        //     Axios.get('./static/json/' + parentsLink + '/' + respones.data[0].artilce[i].link + '.json')
+                        //         .then(res => {
+                        //             return this.jsonData.push(res.data[0]);
+                        //         }).catch(function (err) {
+                        //             console.log(err);
+                        //         })
+                        // }
+                    } else {
+                        this.getJson(parentsLink, respones.data[0].artilce);
+                        
+                        for (var i = 0; i < respones.data[0].nav[0].child[0].artilce.length; i++) {
+                            Axios.get('./static/json/' + parentsLink + '/' + respones.data[0].nav[0].child[0].link + '/' + respones.data[0].nav[0].child[0].artilce[i].link + '.json')
+                                .then(res => {
+                                    return this.jsonData.push(res.data[0]);
+                                }).catch(function (err) {
+                                    console.log(err);
+                                })
+                        }
+                    }
+                })
+                .catch(function (err) {
+                    console.log(err);
+                })
+            this.nowIndex = index; // 把当前点击时获取的 index 赋值给 nowIndex；如果两者相等，则显示高亮
+            this.jsonData = []; // 清空数组 jsonData 的值
         }
     }
 };
