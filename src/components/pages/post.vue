@@ -45,36 +45,21 @@ export default {
             });
     },
     computed: {
-        
+
     },
     methods: {
-        getJson: function (parentsLink, url) {
-            for (var i = 0; i < url.length; i++) {
-                Axios.get('./static/json/' + parentsLink + '/' + url[i].link + '.json')
-                    .then(res => {
-                        return this.jsonData.push(res.data[0]);
-                    }).catch(function (err) {
-                        console.log(err);
-                    })
-            }
-        },
         getJsonData: function (parentsLink, index) {
             Axios.get('./static/json/' + parentsLink + '/config.json')
                 .then(respones => {
-                    if (respones.data[0].nav[0].child === undefined) {
-                        
-                        this.getJson(parentsLink, respones.data[0].artilce);
-                        // for (var i = 0; i < respones.data[0].artilce.length; i++) {
-                        //     Axios.get('./static/json/' + parentsLink + '/' + respones.data[0].artilce[i].link + '.json')
-                        //         .then(res => {
-                        //             return this.jsonData.push(res.data[0]);
-                        //         }).catch(function (err) {
-                        //             console.log(err);
-                        //         })
-                        // }
-                    } else {
-                        this.getJson(parentsLink, respones.data[0].artilce);
-
+                    for (var i = 0; i < respones.data[0].artilce.length; i++) {
+                        Axios.get('./static/json/' + parentsLink + '/' + respones.data[0].artilce[i].link + '.json')
+                            .then(res => {
+                                return this.jsonData.push(res.data[0]);
+                            }).catch(function (err) {
+                                console.log(err);
+                            })
+                    }
+                    if (respones.data[0].nav[0].child != undefined) {
                         for (var i = 0; i < respones.data[0].nav[0].child[0].artilce.length; i++) {
                             Axios.get('./static/json/' + parentsLink + '/' + respones.data[0].nav[0].child[0].link + '/' + respones.data[0].nav[0].child[0].artilce[i].link + '.json')
                                 .then(res => {
