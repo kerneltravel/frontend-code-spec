@@ -1,11 +1,14 @@
 <template>
     <div>
-        <my-head></my-head>
-        <main class="wrap">
+        <!-- <my-head></my-head> -->
+        <main>
             <aside>
+                <h1>
+                    <a href="/">中模网前端编码规范</a>
+                </h1>
                 <ul>
                     <li v-for="(item, index) in sideNav" :key="index" @click="getJsonData(item.link, index)" :class="{active: index === nowIndex}">
-                        {{ item.name }}
+                        {{ index + 1 }}. {{ item.name }}
                     </li>
                 </ul>
             </aside>
@@ -35,7 +38,7 @@ export default {
         return {
             sideNav: [],
             jsonData: [],
-            nowIndex: 0
+            nowIndex: ''
         };
     },
     created() {
@@ -43,16 +46,15 @@ export default {
             .then(respones => {
                 return this.sideNav = respones.data;
             });
-    },
-    computed: {
-
+        this.getJsonData('Common', 0);
     },
     methods: {
-        getJsonData: function (parentsLink, index) {
-            Axios.get('./static/json/' + parentsLink + '/config.json')
+        getJsonData: function (folder, index) {
+            if (this.nowIndex === index) return;
+            Axios.get('./static/json/' + folder + '/config.json')
                 .then(respones => {
                     for (var i = 0; i < respones.data[0].artilce.length; i++) {
-                        Axios.get('./static/json/' + parentsLink + '/' + respones.data[0].artilce[i].link + '.json')
+                        Axios.get('./static/json/' + folder + '/' + respones.data[0].artilce[i].link + '.json')
                             .then(res => {
                                 return this.jsonData.push(res.data[0]);
                             }).catch(function (err) {
@@ -61,7 +63,7 @@ export default {
                     }
                     if (respones.data[0].nav[0].child != undefined) {
                         for (var i = 0; i < respones.data[0].nav[0].child[0].artilce.length; i++) {
-                            Axios.get('./static/json/' + parentsLink + '/' + respones.data[0].nav[0].child[0].link + '/' + respones.data[0].nav[0].child[0].artilce[i].link + '.json')
+                            Axios.get('./static/json/' + folder + '/' + respones.data[0].nav[0].child[0].link + '/' + respones.data[0].nav[0].child[0].artilce[i].link + '.json')
                                 .then(res => {
                                     return this.jsonData.push(res.data[0]);
                                 }).catch(function (err) {
@@ -81,30 +83,39 @@ export default {
 </script>
 
 <style scoped>
-main {
-    margin-top: 20px;
-}
 aside {
-    float: left;
-    width: 180px;
-    margin-right: 20px;
-    background-color: #f8f8f8;
-    border: 1px solid #e1e1e1;
-    border-radius: 3px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 220px;
+    height: 100%;
+    background-color: #fafafa;
+    border-right: 1px solid #e8e8e8;
+}
+aside h1 {
+    margin-bottom: 15px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #fcfcfc;
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+aside h1 a:hover {
+    text-decoration: underline;
 }
 aside li {
-    margin: 0.8em 0;
+    font-size: 14px;
     padding: 0 1em;
-    line-height: 40px;
-    text-align: right;
+    line-height: 36px;
     cursor: pointer;
 }
 aside li:hover,
 .active {
-    color: #09f;
-    background-color: #e1e1e1;
+    color: #08f;
 }
 section {
-    float: left;
+    margin-left: 220px;
 }
 </style>
