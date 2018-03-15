@@ -22,11 +22,11 @@
     }],
     "artilce": [{
         "id": "0",
-        "link": "test1",
+        "link": "Common1",
         "name": "通用约定Common-1"
     }, {
         "id": "0",
-        "link": "test2",
+        "link": "Common2",
         "name": "通用约定Common-1"
     }]
 }]

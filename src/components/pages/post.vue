@@ -9,6 +9,12 @@
                 <ul>
                     <li v-for="(item, index) in sideNav" :key="index" @click="getJsonData(item.link, index)" :class="{active: index === nowIndex}">
                         {{ index + 1 }}. {{ item.name }}
+                        <ul>
+                            <li v-for="(item, index) in subNav" :key="index">
+                                {{ item.name }}
+
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </aside>
@@ -37,6 +43,7 @@ export default {
     data() {
         return {
             sideNav: [],
+            subNav: [],
             jsonData: [],
             nowIndex: ''
         };
@@ -44,9 +51,21 @@ export default {
     created() {
         Axios.get('./static/json/config.json')
             .then(respones => {
-                return this.sideNav = respones.data;
+                this.sideNav = respones.data;
+                for (var i = 0; i < this.sideNav.length; i++) {
+                    Axios.get('./static/json/'+ this.sideNav[i].link +'/config.json')
+                        .then(res => {
+                            for (var j = 0; j < res.data[0].artilce.length; j++) {
+                                console.log(res.data[0].artilce[j]);
+                            }
+                            // return this.subNav.push(res.data[0].artilce);
+                            // return this.subNav = res.data[0].artilce;
+                        })
+                }
             });
         this.getJsonData('Common', 0);
+    },
+    mounted() {
     },
     methods: {
         getJsonData: function (folder, index) {

@@ -2,17 +2,17 @@
     "nav": [{
         "parent": [{
             "id": "0",
-            "link": "css",
+            "link": "JS",
             "name": "通用约定"
         }]
     }],
     "artilce": [{
         "id": "0",
-        "link": "CSS",
-        "name": "CSS-1"
+        "link": "JS",
+        "name": "JS-1"
     }, {
         "id": "0",
-        "link": "CSS",
-        "name": "CSS-1"
+        "link": "JS2",
+        "name": "JS-1"
     }]
 }]
