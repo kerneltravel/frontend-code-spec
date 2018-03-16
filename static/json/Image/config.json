@@ -3,10 +3,10 @@
         "parent": [{
             "id": "0",
             "link": "IMG",
-            "name": "通用约定"
+            "name": "图片规范"
         }]
     }],
-    "artilce": [{
+    "article": [{
         "id": "0",
         "link": "IMG1",
         "name": "IMG-1"

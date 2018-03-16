@@ -52,14 +52,19 @@ export default {
         Axios.get('./static/json/config.json')
             .then(respones => {
                 this.sideNav = respones.data;
-                for (var i = 0; i < this.sideNav.length; i++) {
-                    Axios.get('./static/json/'+ this.sideNav[i].link +'/config.json')
+                // for (var i = 0; i < this.sideNav.length; i++) {
+                //     console.log(this.sideNav[i]);
+                // }
+                for (var i = 0; i < respones.data.length; i++) {
+                    Axios.get('./static/json/'+ respones.data[i].link +'/config.json')
                         .then(res => {
-                            for (var j = 0; j < res.data[0].artilce.length; j++) {
-                                console.log(res.data[0].artilce[j]);
-                            }
-                            // return this.subNav.push(res.data[0].artilce);
-                            // return this.subNav = res.data[0].artilce;
+                            console.log(res.data[0].article);
+                            // this.sideNav.push(res.data[0].nav[0].parent[0])
+                            // for (var j = 0; j < res.data[0].article.length; j++) {
+                            //     this.sideNav.push(res.data[0].article[j]);
+                            // }
+                            // return this.subNav.push(res.data[0].article);
+                            // return this.subNav = res.data[0].article;
                         })
                 }
             });
@@ -72,8 +77,8 @@ export default {
             if (this.nowIndex === index) return;
             Axios.get('./static/json/' + folder + '/config.json')
                 .then(respones => {
-                    for (var i = 0; i < respones.data[0].artilce.length; i++) {
-                        Axios.get('./static/json/' + folder + '/' + respones.data[0].artilce[i].link + '.json')
+                    for (var i = 0; i < respones.data[0].article.length; i++) {
+                        Axios.get('./static/json/' + folder + '/' + respones.data[0].article[i].link + '.json')
                             .then(res => {
                                 return this.jsonData.push(res.data[0]);
                             }).catch(function (err) {
@@ -81,8 +86,8 @@ export default {
                             })
                     }
                     if (respones.data[0].nav[0].child != undefined) {
-                        for (var i = 0; i < respones.data[0].nav[0].child[0].artilce.length; i++) {
-                            Axios.get('./static/json/' + folder + '/' + respones.data[0].nav[0].child[0].link + '/' + respones.data[0].nav[0].child[0].artilce[i].link + '.json')
+                        for (var i = 0; i < respones.data[0].nav[0].child[0].article.length; i++) {
+                            Axios.get('./static/json/' + folder + '/' + respones.data[0].nav[0].child[0].link + '/' + respones.data[0].nav[0].child[0].article[i].link + '.json')
                                 .then(res => {
                                     return this.jsonData.push(res.data[0]);
                                 }).catch(function (err) {

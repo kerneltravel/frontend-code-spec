@@ -9,7 +9,7 @@
             "id": "0",
             "link": "jq",
             "name": "jq-name",
-            "artilce": [{
+            "article": [{
                 "id": "0",
                 "link": "jq1",
                 "name": "jq-1"
@@ -20,7 +20,7 @@
             }]
         }]
     }],
-    "artilce": [{
+    "article": [{
         "id": "0",
         "link": "Common1",
         "name": "通用约定Common-1"
