@@ -7,12 +7,11 @@
                     <a href="/">中模网前端编码规范</a>
                 </h1>
                 <ul>
-                    <li v-for="(item, index) in sideNav" :key="index" @click="getJsonData(item.link, index)" :class="{active: index === nowIndex}">
-                        {{ index + 1 }}. {{ item.name }}
-                        <ul>
-                            <li v-for="(item, index) in subNav" :key="index">
-                                {{ item.name }}
-
+                    <li v-for="(item, index) in sideNav" :key="index">
+                        <span @click="getJsonData(item.link, index)" :class="{active: index === nowIndex}">{{ index + 1 }}. {{ item.name }}</span>
+                        <ul v-if="item.children" :class="{on: index === nowIndex}">
+                            <li v-for="(childItem, childIndex) in item.children" :key="childIndex">
+                                <a href="javascript:void(0)" @click="goAnchor('#anchor-' + childIndex)">{{ childItem.link }}</a>
                             </li>
                         </ul>
                     </li>
@@ -20,7 +19,7 @@
             </aside>
             <Article>
                 <div v-for="(item, index) in jsonData" :key="index">
-                    <h3>{{ item.title }}</h3>
+                    <h3 :id="'anchor-' + index">{{ item.title }}</h3>
                     <p>{{ item.content }}</p>
                     <hr>
                 </div>
@@ -43,64 +42,35 @@ export default {
     data() {
         return {
             sideNav: [],
-            subNav: [],
+            children: [],
             jsonData: [],
             nowIndex: ''
         };
     },
     created() {
-        Axios.get('./static/json/config.json')
+        Axios.get('./static/json/nav.json')
             .then(respones => {
                 this.sideNav = respones.data;
-                // for (var i = 0; i < this.sideNav.length; i++) {
-                //     console.log(this.sideNav[i]);
-                // }
-                for (var i = 0; i < respones.data.length; i++) {
-                    Axios.get('./static/json/'+ respones.data[i].link +'/config.json')
-                        .then(res => {
-                            console.log(res.data[0].article);
-                            // this.sideNav.push(res.data[0].nav[0].parent[0])
-                            // for (var j = 0; j < res.data[0].article.length; j++) {
-                            //     this.sideNav.push(res.data[0].article[j]);
-                            // }
-                            // return this.subNav.push(res.data[0].article);
-                            // return this.subNav = res.data[0].article;
-                        })
-                }
+                this.getJsonData(this.sideNav[0].link, 0)
             });
-        this.getJsonData('Common', 0);
-    },
-    mounted() {
     },
     methods: {
         getJsonData: function (folder, index) {
             if (this.nowIndex === index) return;
-            Axios.get('./static/json/' + folder + '/config.json')
-                .then(respones => {
-                    for (var i = 0; i < respones.data[0].article.length; i++) {
-                        Axios.get('./static/json/' + folder + '/' + respones.data[0].article[i].link + '.json')
-                            .then(res => {
-                                return this.jsonData.push(res.data[0]);
-                            }).catch(function (err) {
-                                console.log(err);
-                            })
-                    }
-                    if (respones.data[0].nav[0].child != undefined) {
-                        for (var i = 0; i < respones.data[0].nav[0].child[0].article.length; i++) {
-                            Axios.get('./static/json/' + folder + '/' + respones.data[0].nav[0].child[0].link + '/' + respones.data[0].nav[0].child[0].article[i].link + '.json')
-                                .then(res => {
-                                    return this.jsonData.push(res.data[0]);
-                                }).catch(function (err) {
-                                    console.log(err);
-                                })
-                        }
-                    }
-                })
-                .catch(function (err) {
+
+            Axios.get('./static/json/' + folder + '.json')
+                .then(res => {
+                    this.jsonData = res.data;
+                }).catch(err => {
                     console.log(err);
                 })
+
             this.nowIndex = index; // 把当前点击时获取的 index 赋值给 nowIndex；如果两者相等，则显示高亮
             this.jsonData = []; // 清空数组 jsonData 的值
+        },
+        goAnchor(selector) {
+            var anchor = this.$el.querySelector(selector)
+            document.documentElement.scrollTop = anchor.offsetTop
         }
     }
 };
@@ -108,7 +78,7 @@ export default {
 
 <style scoped>
 aside {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     width: 220px;
@@ -135,11 +105,23 @@ aside li {
     line-height: 36px;
     cursor: pointer;
 }
-aside li:hover,
+aside li ul {
+    display: none;
+}
+.on {
+    display: block;
+}
+aside span {
+    display: block;
+}
+aside span:hover,
 .active {
     color: #08f;
 }
 section {
     margin-left: 220px;
+}
+p {
+    height: 800px;
 }
 </style>
