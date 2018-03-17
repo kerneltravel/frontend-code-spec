@@ -3,9 +3,9 @@
     "link": "Common",
     "name": "通用约定",
     "children": [{
-        "link": "common1"
+        "title": "我是第一条Common的侧边标题巴拉bababa"
     }, {
-        "link": "common2"
+        "title": "common2"
     }]
 }, {
     "id": "1",
@@ -16,9 +16,9 @@
     "link": "CSS",
     "name": "CSS 规范",
     "children": [{
-        "link": "common1"
+        "title": "common1"
     }, {
-        "link": "common2"
+        "title": "common2"
     }]
 }, {
     "id": "3",

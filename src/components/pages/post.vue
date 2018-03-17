@@ -1,6 +1,5 @@
 <template>
     <div>
-        <!-- <my-head></my-head> -->
         <main>
             <aside>
                 <h1>
@@ -8,10 +7,12 @@
                 </h1>
                 <ul>
                     <li v-for="(item, index) in sideNav" :key="index">
-                        <span @click="getJsonData(item.link, index)" :class="{active: index === nowIndex}">{{ index + 1 }}. {{ item.name }}</span>
+                        <span @click="getJsonData(item.link, index)" :class="{active: index === nowIndex}">
+                            {{ index + 1 }}. {{ item.name }}
+                        </span>
                         <ul v-if="item.children" :class="{on: index === nowIndex}">
                             <li v-for="(childItem, childIndex) in item.children" :key="childIndex">
-                                <a href="javascript:void(0)" @click="goAnchor('#anchor-' + childIndex)">{{ childItem.link }}</a>
+                                <a href="javascript:void(0)" @click="goAnchor('#anchor-' + childIndex)">{{ childItem.title }}</a>
                             </li>
                         </ul>
                     </li>
@@ -30,7 +31,6 @@
 
 <script>
 import Axios from 'axios'
-import MyHead from '@/components/my-head'
 import Article from '@/components/pages/article'
 
 export default {
@@ -81,7 +81,7 @@ aside {
     position: fixed;
     left: 0;
     top: 0;
-    width: 220px;
+    width: 280px;
     height: 100%;
     background-color: #fafafa;
     border-right: 1px solid #e8e8e8;
@@ -107,6 +107,14 @@ aside li {
 }
 aside li ul {
     display: none;
+    text-indent: 1em;
+}
+aside li ul li{
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .on {
     display: block;
@@ -119,7 +127,7 @@ aside span:hover,
     color: #08f;
 }
 section {
-    margin-left: 220px;
+    margin-left: 280px;
 }
 p {
     height: 800px;

@@ -56,6 +56,12 @@ ol,
 li {
     list-style-type: none;
 }
+a {
+    color: #333;
+}
+a:hover {
+    color: #09f;
+}
 #app {
     font-family: "Avenir", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
