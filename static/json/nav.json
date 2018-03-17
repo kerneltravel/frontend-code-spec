@@ -1,7 +1,12 @@
 [{
     "id": "0",
     "link": "Common",
-    "name": "通用约定"
+    "name": "通用约定",
+    "children": [{
+        "link": "common1"
+    }, {
+        "link": "common2"
+    }]
 }, {
     "id": "1",
     "link": "HTML",
@@ -9,7 +14,12 @@
 }, {
     "id": "2",
     "link": "CSS",
-    "name": "CSS 规范"
+    "name": "CSS 规范",
+    "children": [{
+        "link": "common1"
+    }, {
+        "link": "common2"
+    }]
 }, {
     "id": "3",
     "link": "JavaScript",
