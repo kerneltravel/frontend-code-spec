@@ -36,7 +36,6 @@ import Article from '@/components/pages/article'
 export default {
     name: '',
     components: {
-        MyHead,
         Article
     },
     data() {
