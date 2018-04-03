@@ -27,8 +27,9 @@ export default {
 
 <style scoped>
 article {
-    max-width: 700px;
-    margin-left: auto;
+    max-width: 800px;
+    /* margin-left: auto; */
+    margin-left: 50px;
     margin-right: auto;
     padding: 0 40px;
 }
@@ -50,7 +51,7 @@ article header {
     color: #787878;
     font-size: 16px;
 }
-.loading{
+.loading {
     text-align: center;
 }
 </style>

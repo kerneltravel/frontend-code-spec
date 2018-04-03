@@ -141,8 +141,9 @@ a:hover {
     padding-right: 23px;
 }
 .context a::after {
-    position: absolute;
-    top: -13px;
+    /* position: absolute; */
+    /* top: -13px; */
+    margin-top: -8px;
     padding-left: 5px;
     content: "↵";
     display: inline-block;
@@ -158,5 +159,29 @@ a:hover {
 }
 .context strong {
     color: #f0ad4e;
+}
+.context table {
+    border: 1px solid #e1e1e1;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.context th {
+    background-color: #eee;
+    border-bottom: 1px solid #e1e1e1;
+}
+.context th,
+.context td {
+    border-left: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 12px;
+    padding: 5px;
+}
+.context th {
+    color: #333;
+    font-size: 14px;
+}
+.context td {
+    color: #999;
 }
 </style>

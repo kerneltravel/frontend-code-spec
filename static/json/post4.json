@@ -1,0 +1,1169 @@
+[{
+    "id": 262,
+    "date": "2018-04-03T10:56:49",
+    "date_gmt": "2018-04-03T02:56:49",
+    "guid": {
+        "rendered": "http:\/\/192.168.5.9:8081\/?p=262"
+    },
+    "modified": "2018-04-03T14:38:18",
+    "modified_gmt": "2018-04-03T06:38:18",
+    "slug": "%e7%bc%a9%e8%bf%9b",
+    "status": "publish",
+    "type": "post",
+    "link": "http:\/\/192.168.5.9:8081\/2018\/04\/03\/%e7%bc%a9%e8%bf%9b\/",
+    "title": {
+        "rendered": "\u7f29\u8fdb"
+    },
+    "content": {
+        "rendered": "<ul>\n<li>\u4f7f\u7528 tab \u505a\u4e3a\u4e00\u4e2a\u7f29\u8fdb\u5c42\u7ea7\uff0c\u4e0d\u5141\u8bb8\u4f7f\u7528 2 \u4e2a\u7a7a\u683c \u6216 \u7a7a\u683c + tab\u3002<\/li>\n<li>switch \u4e0b\u7684 case \u548c default \u5fc5\u987b\u589e\u52a0\u4e00\u4e2a\u7f29\u8fdb\u5c42\u7ea7\u3002<\/li>\n<\/ul>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<div>\n<pre>switch (variable) {\r\ncase '1':\r\n    \/\/ do...\r\n    break;\r\ncase '2':\r\n    \/\/ do...\r\n    break;\r\ndefault:\r\n    \/\/ do...\r\n}<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<div>\n<pre>switch (variable) {\r\n    case '1':\r\n    \/\/ do...\r\n    break;\r\n    case '2':\r\n    \/\/ do...\r\n    break;\r\n    default:\r\n    \/\/ do...\r\n}<\/pre>\n<\/div>\n<\/div>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>\u4f7f\u7528 tab \u505a\u4e3a\u4e00\u4e2a\u7f29\u8fdb\u5c42\u7ea7\uff0c\u4e0d\u5141\u8bb8\u4f7f\u7528 2 \u4e2a\u7a7a\u683c \u6216 \u7a7a\u683c + tab\u3002 switch \u4e0b\u7684 case  [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [4],
+    "tags": [],
+    "_links": {
+        "self": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/262"
+        }],
+        "collection": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts"
+        }],
+        "about": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/types\/post"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/users\/1"
+        }],
+        "replies": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/comments?post=262"
+        }],
+        "version-history": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/262\/revisions"
+        }],
+        "wp:attachment": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/media?parent=262"
+        }],
+        "wp:term": [{
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/categories?post=262"
+        }, {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/tags?post=262"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 265,
+    "date": "2018-04-03T11:05:28",
+    "date_gmt": "2018-04-03T03:05:28",
+    "guid": {
+        "rendered": "http:\/\/192.168.5.9:8081\/?p=265"
+    },
+    "modified": "2018-04-03T11:05:28",
+    "modified_gmt": "2018-04-03T03:05:28",
+    "slug": "%e7%a9%ba%e6%a0%bc",
+    "status": "publish",
+    "type": "post",
+    "link": "http:\/\/192.168.5.9:8081\/2018\/04\/03\/%e7%a9%ba%e6%a0%bc\/",
+    "title": {
+        "rendered": "\u7a7a\u683c"
+    },
+    "content": {
+        "rendered": "<h3>\u4e8c\u5143\u8fd0\u7b97\u7b26\u4e24\u4fa7\u5fc5\u987b\u6709\u4e00\u4e2a\u7a7a\u683c\uff0c\u4e00\u5143\u8fd0\u7b97\u7b26\u4e0e\u64cd\u4f5c\u5bf9\u8c61\u4e4b\u95f4\u4e0d\u5141\u8bb8\u6709\u7a7a\u683c<\/h3>\n<div>\n<pre>var a = !arr.length;\r\na++;\r\na = b + c;<\/pre>\n<h3>\u7528\u4f5c\u4ee3\u7801\u5757\u8d77\u59cb\u7684\u5de6\u82b1\u62ec\u53f7 { \u524d\u5fc5\u987b\u6709\u4e00\u4e2a\u7a7a\u683c<\/h3>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<div>\n<pre>if (condition){\r\n}\r\n\r\nwhile (condition){\r\n}\r\n\r\nfunction funcName(){\r\n}<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<div>\n<pre>if (condition) {\r\n}\r\n\r\nwhile (condition) {\r\n}\r\n\r\nfunction funcName() {\r\n}<\/pre>\n<h3>if \/ else \/ for \/ while \/ function \/ switch \/ do \/ try \/ catch \/ finally \u5173\u952e\u5b57\u540e\uff0c\u5fc5\u987b\u6709\u4e00\u4e2a\u7a7a\u683c<\/h3>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<div>\n<pre>if(condition) {\r\n}\r\n\r\nwhile(condition) {\r\n}\r\n\r\n(function() {\r\n})();<\/pre>\n<\/div>\n<\/div>\n<p>\u63a8\u8350\uff1a<\/p>\n<div>\n<pre>if (condition) {\r\n}\r\n\r\nwhile (condition) {\r\n}\r\n\r\n(function () {\r\n})();<\/pre>\n<\/div>\n<h3>\u5728\u5bf9\u8c61\u521b\u5efa\u65f6\uff0c\u5c5e\u6027\u4e2d\u7684 : \u4e4b\u540e\u5fc5\u987b\u6709\u7a7a\u683c\uff0c: \u4e4b\u524d\u4e0d\u5141\u8bb8\u6709\u7a7a\u683c<\/h3>\n<\/div>\n<\/div>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<div>\n<pre>var obj = {\r\n    a : 1,\r\n    b:2,\r\n    c :3\r\n};<\/pre>\n<\/div>\n<p>\u63a8\u8350\uff1a<\/p>\n<div>\n<pre>var obj = {\r\n    a: 1,\r\n    b: 2,\r\n    c: 3\r\n};<\/pre>\n<\/div>\n<h3>\u51fd\u6570\u58f0\u660e\u3001\u5177\u540d\u51fd\u6570\u8868\u8fbe\u5f0f\u3001\u51fd\u6570\u8c03\u7528\u4e2d\uff0c\u51fd\u6570\u540d\u548c ( \u4e4b\u95f4\u4e0d\u5141\u8bb8\u6709\u7a7a\u683c<\/h3>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<div>\n<pre>function funcName () {\r\n}\r\n\r\nvar funcName = function funcName () {\r\n};\r\n\r\nfuncName ();<\/pre>\n<\/div>\n<p>\u63a8\u8350\uff1a<\/p>\n<div>\n<pre>function funcName() {\r\n}\r\n\r\nvar funcName = function funcName() {\r\n};\r\n\r\nfuncName();<\/pre>\n<\/div>\n<h3>, \u548c ; \u524d\u4e0d\u5141\u8bb8\u6709\u7a7a\u683c\u3002\u5982\u679c\u4e0d\u4f4d\u4e8e\u884c\u5c3e\uff0c, \u548c ; \u540e\u5fc5\u987b\u8ddf\u4e00\u4e2a\u7a7a\u683c<\/h3>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre>callFunc(a , b) ;<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre>callFunc(a, b);<\/pre>\n<h3>\u5728\u51fd\u6570\u8c03\u7528\u3001\u51fd\u6570\u58f0\u660e\u3001\u62ec\u53f7\u8868\u8fbe\u5f0f\u3001\u5c5e\u6027\u8bbf\u95ee\u3001if \/ for \/ while \/ switch \/ catch \u7b49\u8bed\u53e5\u4e2d\uff0c() \u548c [] \u5185\u7d27\u8d34\u62ec\u53f7\u90e8\u5206\u4e0d\u5141\u8bb8\u6709\u7a7a\u683c<\/h3>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<div>\n<pre>callFunc( param1, param2, param3 );\r\nsave( this.list[ this.indexes[ i ] ] );\r\nneedIncreament &amp;&amp; ( variable += increament );\r\nif ( num &gt; list.length ) {\r\n}\r\nwhile ( len-- ) {\r\n}<\/pre>\n<\/div>\n<p>\u63a8\u8350\uff1a<\/p>\n<div>\n<pre>callFunc(param1, param2, param3);\r\nsave(this.list[this.indexes[i]]);\r\nneedIncream &amp;&amp; (variable += increament);\r\nif (num &gt; list.length) {\r\n}\r\nwhile (len--) {\r\n}<\/pre>\n<\/div>\n<h3>\u5355\u884c\u58f0\u660e\u7684\u6570\u7ec4\u4e0e\u5bf9\u8c61\uff0c\u5982\u679c\u5305\u542b\u5143\u7d20\uff0c{} \u548c [] \u5185\u7d27\u8d34\u62ec\u53f7\u90e8\u5206\u4e0d\u5141\u8bb8\u5305\u542b\u7a7a\u683c<\/h3>\n<p>\u58f0\u660e\u5305\u542b\u5143\u7d20\u7684\u6570\u7ec4\u4e0e\u5bf9\u8c61\uff0c\u53ea\u6709\u5f53\u5185\u90e8\u5143\u7d20\u7684\u5f62\u5f0f\u8f83\u4e3a\u7b80\u5355\u65f6\uff0c\u624d\u5141\u8bb8\u5199\u5728\u4e00\u884c\u3002\u5143\u7d20\u590d\u6742\u7684\u60c5\u51b5\uff0c\u8fd8\u662f\u5e94\u8be5\u6362\u884c\u4e66\u5199\u3002<\/p>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<div>\n<pre>var arr1 = [ ];\r\nvar arr2 = [ 1, 2, 3 ];\r\nvar obj1 = { };\r\nvar obj2 = { name: 'obj' };\r\nvar obj3 = {name: 'obj', age: 20, sex: 1};<\/pre>\n<\/div>\n<p>\u63a8\u8350\uff1a<\/p>\n<div>\n<pre>var arr1 = [];\r\nvar arr2 = [1, 2, 3];\r\nvar obj1 = {};\r\nvar obj2 = {name: 'obj'};\r\nvar obj3 = {\r\n    name: 'obj',\r\n    age: 20,\r\n    sex: 1\r\n};<\/pre>\n<\/div>\n<blockquote><p>\u884c\u5c3e\u4e0d\u5f97\u6709\u591a\u4f59\u7684\u7a7a\u683c\u3002<\/p><\/blockquote>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>\u4e8c\u5143\u8fd0\u7b97\u7b26\u4e24\u4fa7\u5fc5\u987b\u6709\u4e00\u4e2a\u7a7a\u683c\uff0c\u4e00\u5143\u8fd0\u7b97\u7b26\u4e0e\u64cd\u4f5c\u5bf9\u8c61\u4e4b\u95f4\u4e0d\u5141\u8bb8\u6709\u7a7a\u683c var a = !arr.length;  [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [4],
+    "tags": [],
+    "_links": {
+        "self": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/265"
+        }],
+        "collection": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts"
+        }],
+        "about": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/types\/post"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/users\/1"
+        }],
+        "replies": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/comments?post=265"
+        }],
+        "version-history": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/265\/revisions"
+        }],
+        "wp:attachment": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/media?parent=265"
+        }],
+        "wp:term": [{
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/categories?post=265"
+        }, {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/tags?post=265"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 267,
+    "date": "2018-04-03T11:11:47",
+    "date_gmt": "2018-04-03T03:11:47",
+    "guid": {
+        "rendered": "http:\/\/192.168.5.9:8081\/?p=267"
+    },
+    "modified": "2018-04-03T11:16:10",
+    "modified_gmt": "2018-04-03T03:16:10",
+    "slug": "%e5%91%b5%e5%91%b5",
+    "status": "publish",
+    "type": "post",
+    "link": "http:\/\/192.168.5.9:8081\/2018\/04\/03\/%e5%91%b5%e5%91%b5\/",
+    "title": {
+        "rendered": "\u6362\u884c"
+    },
+    "content": {
+        "rendered": "<h3>\u6bcf\u4e2a\u72ec\u7acb\u8bed\u53e5\u7ed3\u675f\u540e\u5fc5\u987b\u6362\u884c<\/h3>\n<h3>\u6bcf\u884c\u5c3d\u91cf\u4e0d\u5f97\u8d85\u8fc7 120 \u4e2a\u5b57\u7b26<\/h3>\n<p>\u8d85\u957f\u7684\u4e0d\u53ef\u5206\u5272\u7684\u4ee3\u7801\u5141\u8bb8\u4f8b\u5916\uff0c\u6bd4\u5982\u590d\u6742\u7684\u6b63\u5219\u8868\u8fbe\u5f0f\u3002\u957f\u5b57\u7b26\u4e32\u4e0d\u5728\u4f8b\u5916\u4e4b\u5217\u3002<\/p>\n<h3>\u8fd0\u7b97\u7b26\u5904\u6362\u884c\u65f6\uff0c\u8fd0\u7b97\u7b26\u5fc5\u987b\u5728\u65b0\u884c\u7684\u884c\u9996<\/h3>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<div>\n<pre>if (user.isAuthenticated() &amp;&amp;\r\n    user.isInRole('admin')&amp;&amp;\r\n    user.hasAuthority('add-admin')||\r\n    user.hasAuthority('delete-admin')){\r\n    \/\/ Code\r\n}\r\n\r\nvar result = number1 + number2 + number3 +\r\nnumber4+number5;<\/pre>\n<\/div>\n<p>\u63a8\u8350\uff1a<\/p>\n<div>\n<pre>if (user.isAuthenticated()\r\n&amp;&amp;user.isInRole('admin')\r\n&amp;&amp;user.hasAuthority('add-admin')\r\n||user.hasAuthority('delete-admin')\r\n) {\r\n\/\/ Code\r\n}\r\n\r\nvar result = number1 + number2 + number3\r\n+number4+number5;<\/pre>\n<\/div>\n<h3>\u5728\u51fd\u6570\u58f0\u660e\u3001\u51fd\u6570\u8868\u8fbe\u5f0f\u3001\u51fd\u6570\u8c03\u7528\u3001\u5bf9\u8c61\u521b\u5efa\u3001\u6570\u7ec4\u521b\u5efa\u3001for \u8bed\u53e5\u7b49\u573a\u666f\u4e2d\uff0c\u4e0d\u5141\u8bb8\u5728 , \u6216 ; \u524d\u6362\u884c<\/h3>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<div>\n<pre>var obj = {\r\n    a: 1\r\n    , b:2\r\n    , c:3\r\n};\r\n\r\nfoo(\r\n    aVeryVeryLongArgument\r\n    ,anotherVeryLongArgument\r\n    ,callback\r\n);<\/pre>\n<\/div>\n<p>\u63a8\u8350\uff1a<\/p>\n<div>\n<pre>var obj = {\r\n    a: 1,\r\n    b: 2,\r\n    c: 3\r\n};\r\n\r\nfoo(\r\n    aVeryVeryLongArgument,\r\n    anotherVeryLongArgument,\r\n    callback\r\n);<\/pre>\n<\/div>\n<h3>\u4e0d\u540c\u884c\u4e3a\u6216\u903b\u8f91\u7684\u8bed\u53e5\u96c6\uff0c\u4f7f\u7528\u7a7a\u884c\u9694\u5f00\uff0c\u66f4\u6613\u9605\u8bfb<\/h3>\n<div>\n<pre>\/\/ \u4ec5\u4e3a\u6309\u903b\u8f91\u6362\u884c\u7684\u793a\u4f8b\uff0c\u4e0d\u4ee3\u8868setStyle\u7684\u6700\u4f18\u5b9e\u73b0\r\nfunction setStyle(element, property, value) {\r\n    if(element==null){\r\n        return;\r\n    }\r\n\r\n    element.style[property]=value;\r\n    }\r\n}<\/pre>\n<\/div>\n<h3>\u5728\u8bed\u53e5\u7684\u884c\u957f\u5ea6\u8d85\u8fc7 120 \u65f6\uff0c\u6839\u636e\u903b\u8f91\u6761\u4ef6\u5408\u7406\u7f29\u8fdb<\/h3>\n<pre>\/\/ \u8f83\u590d\u6742\u7684\u903b\u8f91\u6761\u4ef6\u7ec4\u5408\uff0c\u5c06\u6bcf\u4e2a\u6761\u4ef6\u72ec\u7acb\u4e00\u884c\uff0c\u903b\u8f91\u8fd0\u7b97\u7b26\u653e\u7f6e\u5728\u884c\u9996\u8fdb\u884c\u5206\u9694\uff0c\u6216\u5c06\u90e8\u5206\u903b\u8f91\u6309\u903b\u8f91\u7ec4\u5408\u8fdb\u884c\u5206\u9694\u3002\r\n\/\/ \u5efa\u8bae\u6700\u7ec8\u5c06\u53f3\u62ec\u53f7 ) \u4e0e\u5de6\u5927\u62ec\u53f7 { \u653e\u5728\u72ec\u7acb\u4e00\u884c\uff0c\u4fdd\u8bc1\u4e0e `if` \u5185\u8bed\u53e5\u5757\u80fd\u5bb9\u6613\u89c6\u89c9\u8fa8\u8bc6\u3002\r\nif (user.isAuthenticated()\r\n    &amp;&amp; user.isInRole('admin')\r\n    &amp;&amp; user.hasAuthority('add-admin')\r\n    || user.hasAuthority('delete-admin')\r\n) {\r\n    \/\/ Code\r\n}\r\n\r\n\/\/ \u6309\u4e00\u5b9a\u957f\u5ea6\u622a\u65ad\u5b57\u7b26\u4e32\uff0c\u5e76\u4f7f\u7528 + \u8fd0\u7b97\u7b26\u8fdb\u884c\u8fde\u63a5\u3002\r\n\/\/ \u5206\u9694\u5b57\u7b26\u4e32\u5c3d\u91cf\u6309\u8bed\u4e49\u8fdb\u884c\uff0c\u5982\u4e0d\u8981\u5728\u4e00\u4e2a\u5b8c\u6574\u7684\u540d\u8bcd\u4e2d\u95f4\u65ad\u5f00\u3002\r\n\/\/ \u7279\u522b\u7684\uff0c\u5bf9\u4e8e HTML \u7247\u6bb5\u7684\u62fc\u63a5\uff0c\u901a\u8fc7\u7f29\u8fdb\uff0c\u4fdd\u6301\u548c HTML \u76f8\u540c\u7684\u7ed3\u6784\u3002\r\nvar html = '' \/\/ \u6b64\u5904\u7528\u4e00\u4e2a\u7a7a\u5b57\u7b26\u4e32\uff0c\u4ee5\u4fbf\u6574\u4e2a HTML \u7247\u6bb5\u90fd\u5728\u65b0\u884c\u4e25\u683c\u5bf9\u9f50\r\n    + '&lt;article&gt;'\r\n    +     '&lt;h1&gt;Title here&lt;\/h1&gt;'\r\n    +     '&lt;p&gt;This is a paragraph&lt;\/p&gt;'\r\n    +     '&lt;footer&gt;Complete&lt;\/footer&gt;'\r\n    + '&lt;\/article&gt;';\r\n\r\n\/\/ \u4e5f\u53ef\u4f7f\u7528\u6570\u7ec4\u6765\u8fdb\u884c\u62fc\u63a5\uff0c\u76f8\u5bf9 `+` \u66f4\u5bb9\u6613\u8c03\u6574\u7f29\u8fdb\u3002\r\nvar html = [\r\n    '&lt;article&gt;',\r\n        '&lt;h1&gt;Title here&lt;\/h1&gt;',\r\n        '&lt;p&gt;This is a paragraph&lt;\/p&gt;',\r\n        '&lt;footer&gt;Complete&lt;\/footer&gt;',\r\n    '&lt;\/article&gt;'\r\n];\r\nhtml = html.join('');\r\n\r\n\/\/ \u5f53\u53c2\u6570\u8fc7\u591a\u65f6\uff0c\u5c06\u6bcf\u4e2a\u53c2\u6570\u72ec\u7acb\u5199\u5728\u4e00\u884c\u4e0a\uff0c\u5e76\u5c06\u7ed3\u675f\u7684\u53f3\u62ec\u53f7 ) \u72ec\u7acb\u4e00\u884c\u3002\r\n\/\/ \u6240\u6709\u53c2\u6570\u5fc5\u987b\u589e\u52a0\u4e00\u4e2a\u7f29\u8fdb\u3002\r\nfoo(\r\n    aVeryVeryLongArgument,\r\n    anotherVeryLongArgument,\r\n    callback\r\n);\r\n\r\n\/\/ \u4e5f\u53ef\u4ee5\u6309\u903b\u8f91\u5bf9\u53c2\u6570\u8fdb\u884c\u7ec4\u5408\u3002\r\n\/\/ \u6700\u7ecf\u5178\u7684\u662f baidu.format \u51fd\u6570\uff0c\u8c03\u7528\u65f6\u5c06\u53c2\u6570\u5206\u4e3a\u201c\u6a21\u677f\u201d\u548c\u201c\u6570\u636e\u201d\u4e24\u5757\r\nbaidu.format(\r\n    dateFormatTemplate,\r\n    year, month, date, hour, minute, second\r\n);\r\n\r\n\/\/ \u5f53\u51fd\u6570\u8c03\u7528\u65f6\uff0c\u5982\u679c\u6709\u4e00\u4e2a\u6216\u4ee5\u4e0a\u53c2\u6570\u8de8\u8d8a\u591a\u884c\uff0c\u5e94\u5f53\u6bcf\u4e00\u4e2a\u53c2\u6570\u72ec\u7acb\u4e00\u884c\u3002\r\n\/\/ \u8fd9\u901a\u5e38\u51fa\u73b0\u5728\u533f\u540d\u51fd\u6570\u6216\u8005\u5bf9\u8c61\u521d\u59cb\u5316\u7b49\u4f5c\u4e3a\u53c2\u6570\u65f6\uff0c\u5982 `setTimeout` \u51fd\u6570\u7b49\u3002\r\nsetTimeout(\r\n    function () {\r\n        alert('hello');\r\n    },\r\n    200\r\n);\r\n\r\norder.data.read(\r\n    'id=' + me.model.id,\r\n    function (data) {\r\n        me.attchToModel(data.result);\r\n        callback();\r\n    },\r\n    300\r\n);\r\n\r\n\/\/ \u94fe\u5f0f\u8c03\u7528\u8f83\u957f\u65f6\u91c7\u7528\u7f29\u8fdb\u8fdb\u884c\u8c03\u6574\u3002\r\n$('#items')\r\n    .find('.selected')\r\n    .highlight()\r\n    .end();\r\n\r\n\/\/ \u4e09\u5143\u8fd0\u7b97\u7b26\u75313\u90e8\u5206\u7ec4\u6210\uff0c\u56e0\u6b64\u5176\u6362\u884c\u5e94\u5f53\u6839\u636e\u6bcf\u4e2a\u90e8\u5206\u7684\u957f\u5ea6\u4e0d\u540c\uff0c\u5f62\u6210\u4e0d\u540c\u7684\u60c5\u51b5\u3002\r\nvar result = thisIsAVeryVeryLongCondition\r\n    ? resultA : resultB;\r\n\r\nvar result = condition\r\n    ? thisIsAVeryVeryLongResult\r\n    : resultB;\r\n\r\n\/\/ \u6570\u7ec4\u548c\u5bf9\u8c61\u521d\u59cb\u5316\u7684\u6df7\u7528\uff0c\u4e25\u683c\u6309\u7167\u6bcf\u4e2a\u5bf9\u8c61\u7684 `{` \u548c\u7ed3\u675f `}` \u5728\u72ec\u7acb\u4e00\u884c\u7684\u98ce\u683c\u4e66\u5199\u3002\r\nvar array = [\r\n    {\r\n        \/\/ ...\r\n    },\r\n    {\r\n        \/\/ ...\r\n    }\r\n];<\/pre>\n<h3>\u5bf9\u4e8e if&#8230;else&#8230;\u3001try&#8230;catch&#8230;finally \u7b49\u8bed\u53e5\uff0c\u63a8\u8350\u4f7f\u7528\u5728 } \u53f7\u540e\u6dfb\u52a0\u4e00\u4e2a\u6362\u884c \u7684\u98ce\u683c\uff0c\u4f7f\u4ee3\u7801\u5c42\u6b21\u7ed3\u6784\u66f4\u6e05\u6670\uff0c\u9605\u8bfb\u6027\u66f4\u597d<\/h3>\n<pre>if (condition) {\r\n    \/\/ some statements;\r\n}\r\nelse {\r\n    \/\/ some statements;\r\n}\r\n\r\ntry {\r\n    \/\/ some statements;\r\n}\r\ncatch (ex) {\r\n    \/\/ some statements;\r\n}<\/pre>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>\u6bcf\u4e2a\u72ec\u7acb\u8bed\u53e5\u7ed3\u675f\u540e\u5fc5\u987b\u6362\u884c \u6bcf\u884c\u5c3d\u91cf\u4e0d\u5f97\u8d85\u8fc7 120 \u4e2a\u5b57\u7b26 \u8d85\u957f\u7684\u4e0d\u53ef\u5206\u5272\u7684\u4ee3\u7801\u5141\u8bb8\u4f8b\u5916\uff0c\u6bd4\u5982\u590d\u6742\u7684\u6b63\u5219\u8868\u8fbe [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [4],
+    "tags": [],
+    "_links": {
+        "self": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/267"
+        }],
+        "collection": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts"
+        }],
+        "about": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/types\/post"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/users\/1"
+        }],
+        "replies": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/comments?post=267"
+        }],
+        "version-history": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/267\/revisions"
+        }],
+        "wp:attachment": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/media?parent=267"
+        }],
+        "wp:term": [{
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/categories?post=267"
+        }, {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/tags?post=267"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 271,
+    "date": "2018-04-03T11:18:29",
+    "date_gmt": "2018-04-03T03:18:29",
+    "guid": {
+        "rendered": "http:\/\/192.168.5.9:8081\/?p=271"
+    },
+    "modified": "2018-04-03T11:18:57",
+    "modified_gmt": "2018-04-03T03:18:57",
+    "slug": "%e8%af%ad%e5%8f%a5",
+    "status": "publish",
+    "type": "post",
+    "link": "http:\/\/192.168.5.9:8081\/2018\/04\/03\/%e8%af%ad%e5%8f%a5\/",
+    "title": {
+        "rendered": "\u8bed\u53e5"
+    },
+    "content": {
+        "rendered": "<h3>\u4e0d\u5f97\u7701\u7565\u8bed\u53e5\u7ed3\u675f\u7684\u5206\u53f7<\/h3>\n<h3>\u5728 if \/ else \/ for \/ do \/ while \u8bed\u53e5\u4e2d\uff0c\u5373\u4f7f\u53ea\u6709\u4e00\u884c\uff0c\u4e5f\u4e0d\u5f97\u7701\u7565\u5757 {&#8230;}<\/h3>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre>if (condition) callFunc();\r\nif (condition)\r\n    callFunc();<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre>if (condition) {\r\n    callFunc();\r\n}\r\n<\/pre>\n<h3>\u51fd\u6570\u5b9a\u4e49\u7ed3\u675f\u4e0d\u5141\u8bb8\u6dfb\u52a0\u5206\u53f7<\/h3>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre>function funcName() {\r\n};<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre>function funcName() {\r\n}<\/pre>\n<p>\u5982\u679c\u662f\u51fd\u6570\u8868\u8fbe\u5f0f\uff0c\u5206\u53f7\u662f\u4e0d\u5141\u8bb8\u7701\u7565\u7684<\/p>\n<pre>var funcName = function () {\r\n};<\/pre>\n<h3>IIFE \u5fc5\u987b\u5728\u51fd\u6570\u8868\u8fbe\u5f0f\u5916\u6dfb\u52a0 (\uff0c\u975e IIFE \u4e0d\u5f97\u5728\u51fd\u6570\u8868\u8fbe\u5f0f\u5916\u6dfb\u52a0 (<\/h3>\n<p>IIFE = Immediately-Invoked Function Expression.<\/p>\n<p>\u989d\u5916\u7684 ( \u80fd\u591f\u8ba9\u4ee3\u7801\u5728\u9605\u8bfb\u7684\u4e00\u5f00\u59cb\u5c31\u80fd\u5224\u65ad\u51fd\u6570\u662f\u5426\u7acb\u5373\u88ab\u8c03\u7528\uff0c\u8fdb\u800c\u660e\u767d\u63a5\u4e0b\u6765\u4ee3\u7801\u7684\u7528\u9014\u3002\u800c\u4e0d\u662f\u4e00\u76f4\u62d6\u5230\u5e95\u90e8\u624d\u604d\u7136\u5927\u609f\u3002<\/p>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre>var task = function () {\r\n    \/\/ Code\r\n    return result;\r\n}();\r\n\r\nvar func = (function () {\r\n});<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre>var task = (function () {\r\n   \/\/ Code\r\n   return result;\r\n})();\r\n\r\nvar func = function () {\r\n};<\/pre>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>\u4e0d\u5f97\u7701\u7565\u8bed\u53e5\u7ed3\u675f\u7684\u5206\u53f7 \u5728 if \/ else \/ for \/ do \/ while \u8bed\u53e5\u4e2d\uff0c\u5373\u4f7f\u53ea\u6709\u4e00\u884c\uff0c\u4e5f [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [4],
+    "tags": [],
+    "_links": {
+        "self": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/271"
+        }],
+        "collection": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts"
+        }],
+        "about": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/types\/post"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/users\/1"
+        }],
+        "replies": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/comments?post=271"
+        }],
+        "version-history": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/271\/revisions"
+        }],
+        "wp:attachment": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/media?parent=271"
+        }],
+        "wp:term": [{
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/categories?post=271"
+        }, {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/tags?post=271"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 273,
+    "date": "2018-04-03T11:22:07",
+    "date_gmt": "2018-04-03T03:22:07",
+    "guid": {
+        "rendered": "http:\/\/192.168.5.9:8081\/?p=273"
+    },
+    "modified": "2018-04-03T11:24:04",
+    "modified_gmt": "2018-04-03T03:24:04",
+    "slug": "%e5%91%bd%e5%90%8d-2",
+    "status": "publish",
+    "type": "post",
+    "link": "http:\/\/192.168.5.9:8081\/2018\/04\/03\/%e5%91%bd%e5%90%8d-2\/",
+    "title": {
+        "rendered": "\u547d\u540d"
+    },
+    "content": {
+        "rendered": "<h3>\u53d8\u91cf \u4f7f\u7528 Camel\u547d\u540d\u6cd5<\/h3>\n<pre>var loadingModules = {};<\/pre>\n<h3>\u5e38\u91cf \u4f7f\u7528 \u5168\u90e8\u5b57\u6bcd\u5927\u5199\uff0c\u5355\u8bcd\u95f4\u4e0b\u5212\u7ebf\u5206\u9694 \u7684\u547d\u540d\u65b9\u5f0f<\/h3>\n<pre>var HTML_ENTITY = {};<\/pre>\n<h3>\u51fd\u6570 \u4f7f\u7528 Camel\u547d\u540d\u6cd5<\/h3>\n<pre>function stringFormat(source) {\r\n}<\/pre>\n<h3>\u51fd\u6570\u7684 \u53c2\u6570 \u4f7f\u7528 Camel\u547d\u540d\u6cd5<\/h3>\n<pre>function TextNode(options) {\r\n}<\/pre>\n<h3>\u7c7b\u7684 \u65b9\u6cd5 \/ \u5c5e\u6027 \u4f7f\u7528 Camel\u547d\u540d\u6cd5<\/h3>\n<pre>function TextNode(value, engine) {\r\n    this.value = value;\r\n    this.engine = engine;\r\n}\r\n\r\nTextNode.prototype.clone = function () {\r\n    return this;\r\n};<\/pre>\n<h3>\u679a\u4e3e\u53d8\u91cf \u4f7f\u7528 Pascal\u547d\u540d\u6cd5\uff0c\u679a\u4e3e\u7684\u5c5e\u6027 \u4f7f\u7528 \u5168\u90e8\u5b57\u6bcd\u5927\u5199\uff0c\u5355\u8bcd\u95f4\u4e0b\u5212\u7ebf\u5206\u9694 \u7684\u547d\u540d\u65b9\u5f0f<\/h3>\n<pre>var TargetState = {\r\n    READING: 1,\r\n    READED: 2,\r\n    APPLIED: 3,\r\n    READY: 4\r\n};<\/pre>\n<h3>\u547d\u540d\u7a7a\u95f4 \u4f7f\u7528 Camel\u547d\u540d\u6cd5<\/h3>\n<pre>equipments.heavyWeapons = {};<\/pre>\n<h3>\u7531\u591a\u4e2a\u5355\u8bcd\u7ec4\u6210\u7684\u7f29\u5199\u8bcd\uff0c\u5728\u547d\u540d\u4e2d\uff0c\u6839\u636e\u5f53\u524d\u547d\u540d\u6cd5\u548c\u51fa\u73b0\u7684\u4f4d\u7f6e\uff0c\u6240\u6709\u5b57\u6bcd\u7684\u5927\u5c0f\u5199\u4e0e\u9996\u5b57\u6bcd\u7684\u5927\u5c0f\u5199\u4fdd\u6301\u4e00\u81f4<\/h3>\n<pre>function XMLParser() {\r\n}\r\n\r\nfunction insertHTML(element, html) {\r\n}\r\n\r\nvar httpRequest = new HTTPRequest();<\/pre>\n<h3>\u7c7b\u540d \u4f7f\u7528 \u540d\u8bcd<\/h3>\n<pre>function Engine(options) {\r\n}<\/pre>\n<h3>\u51fd\u6570\u540d \u4f7f\u7528 \u52a8\u5bbe\u77ed\u8bed<\/h3>\n<pre>function getStyle(element) {\r\n}<\/pre>\n<h3>boolean \u7c7b\u578b\u7684\u53d8\u91cf\u4f7f\u7528 is \u6216 has \u5f00\u5934<\/h3>\n<pre>var isReady = false;\r\nvar hasMoreCommands = false;<\/pre>\n<h3>Promise\u5bf9\u8c61 \u7528 \u52a8\u5bbe\u77ed\u8bed\u7684\u8fdb\u884c\u65f6 \u8868\u8fbe<\/h3>\n<pre>var loadingData = ajax.get('url');\r\nloadingData.then(callback);<\/pre>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>\u53d8\u91cf \u4f7f\u7528 Camel\u547d\u540d\u6cd5 var loadingModules = {}; \u5e38\u91cf \u4f7f\u7528 \u5168\u90e8\u5b57\u6bcd\u5927\u5199\uff0c\u5355\u8bcd [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [4],
+    "tags": [],
+    "_links": {
+        "self": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/273"
+        }],
+        "collection": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts"
+        }],
+        "about": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/types\/post"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/users\/1"
+        }],
+        "replies": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/comments?post=273"
+        }],
+        "version-history": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/273\/revisions"
+        }],
+        "wp:attachment": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/media?parent=273"
+        }],
+        "wp:term": [{
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/categories?post=273"
+        }, {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/tags?post=273"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 276,
+    "date": "2018-04-03T13:14:30",
+    "date_gmt": "2018-04-03T05:14:30",
+    "guid": {
+        "rendered": "http:\/\/192.168.5.9:8081\/?p=276"
+    },
+    "modified": "2018-04-03T13:15:17",
+    "modified_gmt": "2018-04-03T05:15:17",
+    "slug": "%e5%8f%98%e9%87%8f",
+    "status": "publish",
+    "type": "post",
+    "link": "http:\/\/192.168.5.9:8081\/2018\/04\/03\/%e5%8f%98%e9%87%8f\/",
+    "title": {
+        "rendered": "\u53d8\u91cf"
+    },
+    "content": {
+        "rendered": "<h3>\u53d8\u91cf\u3001\u51fd\u6570\u5728\u4f7f\u7528\u524d\u5fc5\u987b\u5148\u5b9a\u4e49<\/h3>\n<p>\u4e0d\u901a\u8fc7 var \u5b9a\u4e49\u53d8\u91cf\u5c06\u5bfc\u81f4\u53d8\u91cf\u6c61\u67d3\u5168\u5c40\u73af\u5883\u3002<\/p>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre>name = 'MyName';<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre>var name = 'MyName';<\/pre>\n<p>\u539f\u5219\u4e0a\u4e0d\u5efa\u8bae\u4f7f\u7528\u5168\u5c40\u53d8\u91cf\uff0c\u5bf9\u4e8e\u5df2\u6709\u7684\u5168\u5c40\u53d8\u91cf\u6216\u7b2c\u4e09\u65b9\u6846\u67b6\u5f15\u5165\u7684\u5168\u5c40\u53d8\u91cf\uff0c\u9700\u8981\u6839\u636e\u68c0\u67e5\u5de5\u5177\u7684\u8bed\u6cd5\u6807\u8bc6\u3002<\/p>\n<pre>\/* globals jQuery *\/\r\nvar element = jQuery('#element-id');<\/pre>\n<h3>\u53d8\u91cf\u5fc5\u987b \u5373\u7528\u5373\u58f0\u660e\uff0c\u4e0d\u5f97\u5728\u51fd\u6570\u6216\u5176\u5b83\u5f62\u5f0f\u7684\u4ee3\u7801\u5757\u8d77\u59cb\u4f4d\u7f6e\u7edf\u4e00\u58f0\u660e\u6240\u6709\u53d8\u91cf<\/h3>\n<p>\u53d8\u91cf\u58f0\u660e\u4e0e\u4f7f\u7528\u7684\u8ddd\u79bb\u8d8a\u8fdc\uff0c\u51fa\u73b0\u7684\u8de8\u5ea6\u8d8a\u5927\uff0c\u4ee3\u7801\u7684\u9605\u8bfb\u4e0e\u7ef4\u62a4\u6210\u672c\u8d8a\u9ad8\u3002\u867d\u7136 JavaScript \u7684\u53d8\u91cf\u662f\u51fd\u6570\u4f5c\u7528\u57df\uff0c\u8fd8\u662f\u5e94\u8be5\u6839\u636e\u7f16\u7a0b\u4e2d\u7684\u610f\u56fe\uff0c\u7f29\u5c0f\u53d8\u91cf\u51fa\u73b0\u7684\u8ddd\u79bb\u7a7a\u95f4\u3002<\/p>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre>function kv2List(source) {\r\n    var list = [];\r\n    var key;\r\n    var item;\r\n\r\n    for (key in source) {\r\n        if (source.hasOwnProperty(key)) {\r\n            item = {\r\n                k: key,\r\n                v: source[key]\r\n            };\r\n\r\n            list.push(item);\r\n        }\r\n    }\r\n\r\n    return list;\r\n}<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre>function kv2List(source) {\r\n    var list = [];\r\n\r\n    for (var key in source) {\r\n        if (source.hasOwnProperty(key)) {\r\n            var item = {\r\n                k: key,\r\n                v: source[key]\r\n            };\r\n\r\n            list.push(item);\r\n        }\r\n    }\r\n\r\n    return list;\r\n}<\/pre>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>\u53d8\u91cf\u3001\u51fd\u6570\u5728\u4f7f\u7528\u524d\u5fc5\u987b\u5148\u5b9a\u4e49 \u4e0d\u901a\u8fc7 var \u5b9a\u4e49\u53d8\u91cf\u5c06\u5bfc\u81f4\u53d8\u91cf\u6c61\u67d3\u5168\u5c40\u73af\u5883\u3002 \u4e0d\u63a8\u8350\uff1a name = &#8216;My [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [4],
+    "tags": [],
+    "_links": {
+        "self": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/276"
+        }],
+        "collection": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts"
+        }],
+        "about": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/types\/post"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/users\/1"
+        }],
+        "replies": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/comments?post=276"
+        }],
+        "version-history": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/276\/revisions"
+        }],
+        "wp:attachment": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/media?parent=276"
+        }],
+        "wp:term": [{
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/categories?post=276"
+        }, {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/tags?post=276"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 280,
+    "date": "2018-04-03T13:22:06",
+    "date_gmt": "2018-04-03T05:22:06",
+    "guid": {
+        "rendered": "http:\/\/192.168.5.9:8081\/?p=280"
+    },
+    "modified": "2018-04-03T13:22:06",
+    "modified_gmt": "2018-04-03T05:22:06",
+    "slug": "%e6%9d%a1%e4%bb%b6",
+    "status": "publish",
+    "type": "post",
+    "link": "http:\/\/192.168.5.9:8081\/2018\/04\/03\/%e6%9d%a1%e4%bb%b6\/",
+    "title": {
+        "rendered": "\u6761\u4ef6"
+    },
+    "content": {
+        "rendered": "<h3>\u5728 Equality Expression \u4e2d\u4f7f\u7528\u7c7b\u578b\u4e25\u683c\u7684 ===\u3002\u4ec5\u5f53\u5224\u65ad null \u6216 undefined \u65f6\uff0c\u5141\u8bb8\u4f7f\u7528 == null<\/h3>\n<p>\u4f7f\u7528 === \u53ef\u4ee5\u907f\u514d\u7b49\u4e8e\u5224\u65ad\u4e2d\u9690\u5f0f\u7684\u7c7b\u578b\u8f6c\u6362\u3002<\/p>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre>if (age == 30) {\r\n    \/\/ ......\r\n}<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre>if (age === 30) {\r\n    \/\/ ......\r\n}<\/pre>\n<h3>\u5c3d\u53ef\u80fd\u4f7f\u7528\u7b80\u6d01\u7684\u8868\u8fbe\u5f0f<\/h3>\n<p>\u4f8b1\uff1a<\/p>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre>if (name === '') {\r\n    \/\/ ......\r\n}<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre>if (!name) {\r\n    \/\/ ......\r\n}<\/pre>\n<p>\u4f8b2\uff1a<\/p>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre>if (name !== '') {\r\n    \/\/ ......\r\n}<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre>if (name) {\r\n    \/\/ ......\r\n}<\/pre>\n<p>\u4f8b3\uff1a<\/p>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre>if (collection.length &gt; 0) {\r\n    \/\/ ......\r\n}<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre>if (collection.length) {\r\n    \/\/ ......\r\n}<\/pre>\n<p>\u4f8b4\uff1a<\/p>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre>if (notTrue === false) {\r\n    \/\/ ......\r\n}<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre>if (!notTrue) {\r\n    \/\/ ......\r\n}<\/pre>\n<p>\u4f8b5\uff1a<\/p>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre>if (noValue === null || typeof noValue === 'undefined') {\r\n  \/\/ ......\r\n}<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre>if (noValue == null) {\r\n  \/\/ ......\r\n}<\/pre>\n<h3>\u6309\u6267\u884c\u9891\u7387\u6392\u5217\u5206\u652f\u7684\u987a\u5e8f<\/h3>\n<p>\u6309\u6267\u884c\u9891\u7387\u6392\u5217\u5206\u652f\u7684\u987a\u5e8f\u597d\u5904\u662f\uff1a<\/p>\n<ol>\n<li>\u9605\u8bfb\u7684\u4eba\u5bb9\u6613\u627e\u5230\u6700\u5e38\u89c1\u7684\u60c5\u51b5\uff0c\u589e\u52a0\u53ef\u8bfb\u6027\u3002<\/li>\n<li>\u63d0\u9ad8\u6267\u884c\u6548\u7387\u3002<\/li>\n<\/ol>\n<h3>\u5bf9\u4e8e\u76f8\u540c\u53d8\u91cf\u6216\u8868\u8fbe\u5f0f\u7684\u591a\u503c\u6761\u4ef6\uff0c\u7528 switch \u4ee3\u66ff if<\/h3>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre>var type = typeof variable;\r\nif (type === 'object') {\r\n    \/\/ ......\r\n}\r\nelse if (type === 'number' || type === 'boolean' || type === 'string') {\r\n    \/\/ ......\r\n}<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre>switch (typeof variable) {\r\n    case 'object':\r\n        \/\/ ......\r\n        break;\r\n    case 'number':\r\n    case 'boolean':\r\n    case 'string':\r\n        \/\/ ......\r\n        break;\r\n}<\/pre>\n<h3>\u5982\u679c\u51fd\u6570\u6216\u5168\u5c40\u4e2d\u7684 else \u5757\u540e\u6ca1\u6709\u4efb\u4f55\u8bed\u53e5\uff0c\u53ef\u4ee5\u5220\u9664 else<\/h3>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre>function getName() {\r\n    if (name) {\r\n        return name;\r\n    }\r\n    else {\r\n        return 'unnamed';\r\n    }\r\n}<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre>function getName() {\r\n    if (name) {\r\n        return name;\r\n    }\r\n\r\n    return 'unnamed';\r\n}<\/pre>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>\u5728 Equality Expression \u4e2d\u4f7f\u7528\u7c7b\u578b\u4e25\u683c\u7684 ===\u3002\u4ec5\u5f53\u5224\u65ad null \u6216 undefine [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [4],
+    "tags": [],
+    "_links": {
+        "self": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/280"
+        }],
+        "collection": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts"
+        }],
+        "about": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/types\/post"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/users\/1"
+        }],
+        "replies": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/comments?post=280"
+        }],
+        "version-history": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/280\/revisions"
+        }],
+        "wp:attachment": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/media?parent=280"
+        }],
+        "wp:term": [{
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/categories?post=280"
+        }, {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/tags?post=280"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 283,
+    "date": "2018-04-03T13:24:51",
+    "date_gmt": "2018-04-03T05:24:51",
+    "guid": {
+        "rendered": "http:\/\/192.168.5.9:8081\/?p=283"
+    },
+    "modified": "2018-04-03T13:24:51",
+    "modified_gmt": "2018-04-03T05:24:51",
+    "slug": "%e5%be%aa%e7%8e%af",
+    "status": "publish",
+    "type": "post",
+    "link": "http:\/\/192.168.5.9:8081\/2018\/04\/03\/%e5%be%aa%e7%8e%af\/",
+    "title": {
+        "rendered": "\u5faa\u73af"
+    },
+    "content": {
+        "rendered": "<h3>\u4e0d\u8981\u5728\u5faa\u73af\u4f53\u4e2d\u5305\u542b\u51fd\u6570\u8868\u8fbe\u5f0f\uff0c\u4e8b\u5148\u5c06\u51fd\u6570\u63d0\u53d6\u5230\u5faa\u73af\u4f53\u5916<\/h3>\n<p>\u5faa\u73af\u4f53\u4e2d\u7684\u51fd\u6570\u8868\u8fbe\u5f0f\uff0c\u8fd0\u884c\u8fc7\u7a0b\u4e2d\u4f1a\u751f\u6210\u5faa\u73af\u6b21\u6570\u4e2a\u51fd\u6570\u5bf9\u8c61\u3002<\/p>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre><span class=\"pl-k\">for<\/span> (<span class=\"pl-k\">var<\/span> i <span class=\"pl-k\">=<\/span> <span class=\"pl-c1\">0<\/span>, len <span class=\"pl-k\">=<\/span> <span class=\"pl-smi\">elements<\/span>.<span class=\"pl-c1\">length<\/span>; i <span class=\"pl-k\">&lt;<\/span> len; i<span class=\"pl-k\">++<\/span>) {\r\n    <span class=\"pl-k\">var<\/span> element <span class=\"pl-k\">=<\/span> elements[i];\r\n    <span class=\"pl-en\">addListener<\/span>(element, <span class=\"pl-s\"><span class=\"pl-pds\">'<\/span>click<span class=\"pl-pds\">'<\/span><\/span>, <span class=\"pl-k\">function<\/span> () {});\r\n}<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre><span class=\"pl-k\">function<\/span> <span class=\"pl-en\">clicker<\/span>() {\r\n    <span class=\"pl-c\">\/\/ ......<\/span>\r\n}\r\n\r\n<span class=\"pl-k\">for<\/span> (<span class=\"pl-k\">var<\/span> i <span class=\"pl-k\">=<\/span> <span class=\"pl-c1\">0<\/span>, len <span class=\"pl-k\">=<\/span> <span class=\"pl-smi\">elements<\/span>.<span class=\"pl-c1\">length<\/span>; i <span class=\"pl-k\">&lt;<\/span> len; i<span class=\"pl-k\">++<\/span>) {\r\n    <span class=\"pl-k\">var<\/span> element <span class=\"pl-k\">=<\/span> elements[i];\r\n    <span class=\"pl-en\">addListener<\/span>(element, <span class=\"pl-s\"><span class=\"pl-pds\">'<\/span>click<span class=\"pl-pds\">'<\/span><\/span>, clicker);\r\n}<\/pre>\n<h3>\u5bf9\u5faa\u73af\u5185\u591a\u6b21\u4f7f\u7528\u7684\u4e0d\u53d8\u503c\uff0c\u5728\u5faa\u73af\u5916\u7528\u53d8\u91cf\u7f13\u5b58<\/h3>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre><span class=\"pl-k\">for<\/span> (<span class=\"pl-k\">var<\/span> i <span class=\"pl-k\">=<\/span> <span class=\"pl-c1\">0<\/span>, len <span class=\"pl-k\">=<\/span> <span class=\"pl-smi\">elements<\/span>.<span class=\"pl-c1\">length<\/span>; i <span class=\"pl-k\">&lt;<\/span> len; i<span class=\"pl-k\">++<\/span>) {\r\n    <span class=\"pl-k\">var<\/span> element <span class=\"pl-k\">=<\/span> elements[i];\r\n    <span class=\"pl-smi\">element<\/span>.<span class=\"pl-c1\">style<\/span>.<span class=\"pl-c1\">width<\/span> <span class=\"pl-k\">=<\/span> <span class=\"pl-smi\">wrap<\/span>.<span class=\"pl-smi\">offsetWidth<\/span> <span class=\"pl-k\">+<\/span> <span class=\"pl-s\"><span class=\"pl-pds\">'<\/span>px<span class=\"pl-pds\">'<\/span><\/span>;\r\n    <span class=\"pl-c\">\/\/ ......<\/span>\r\n}<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre><span class=\"pl-k\">var<\/span> width <span class=\"pl-k\">=<\/span> <span class=\"pl-smi\">wrap<\/span>.<span class=\"pl-smi\">offsetWidth<\/span> <span class=\"pl-k\">+<\/span> <span class=\"pl-s\"><span class=\"pl-pds\">'<\/span>px<span class=\"pl-pds\">'<\/span><\/span>;\r\n<span class=\"pl-k\">for<\/span> (<span class=\"pl-k\">var<\/span> i <span class=\"pl-k\">=<\/span> <span class=\"pl-c1\">0<\/span>, len <span class=\"pl-k\">=<\/span> <span class=\"pl-smi\">elements<\/span>.<span class=\"pl-c1\">length<\/span>; i <span class=\"pl-k\">&lt;<\/span> len; i<span class=\"pl-k\">++<\/span>) {\r\n    <span class=\"pl-k\">var<\/span> element <span class=\"pl-k\">=<\/span> elements[i];\r\n    <span class=\"pl-smi\">element<\/span>.<span class=\"pl-c1\">style<\/span>.<span class=\"pl-c1\">width<\/span> <span class=\"pl-k\">=<\/span> width;\r\n    <span class=\"pl-c\">\/\/ ......<\/span>\r\n}<\/pre>\n<h3>\u5bf9\u6709\u5e8f\u96c6\u5408\u8fdb\u884c\u904d\u5386\u65f6\uff0c\u7f13\u5b58 <code>length<\/code><\/h3>\n<p>\u867d\u7136\u73b0\u4ee3\u6d4f\u89c8\u5668\u90fd\u5bf9\u6570\u7ec4\u957f\u5ea6\u8fdb\u884c\u4e86\u7f13\u5b58\uff0c\u4f46\u5bf9\u4e8e\u4e00\u4e9b\u5bbf\u4e3b\u5bf9\u8c61\u548c\u8001\u65e7\u6d4f\u89c8\u5668\u7684\u6570\u7ec4\u5bf9\u8c61\uff0c\u5728\u6bcf\u6b21 <code>length<\/code> \u8bbf\u95ee\u65f6\u4f1a\u52a8\u6001\u8ba1\u7b97\u5143\u7d20\u4e2a\u6570\uff0c\u6b64\u65f6\u7f13\u5b58 <code>length<\/code> \u80fd\u6709\u6548\u63d0\u9ad8\u7a0b\u5e8f\u6027\u80fd\u3002<\/p>\n<pre><span class=\"pl-k\">for<\/span> (<span class=\"pl-k\">var<\/span> i <span class=\"pl-k\">=<\/span> <span class=\"pl-c1\">0<\/span>, len <span class=\"pl-k\">=<\/span> <span class=\"pl-smi\">elements<\/span>.<span class=\"pl-c1\">length<\/span>; i <span class=\"pl-k\">&lt;<\/span> len; i<span class=\"pl-k\">++<\/span>) {\r\n    <span class=\"pl-k\">var<\/span> element <span class=\"pl-k\">=<\/span> elements[i];\r\n    <span class=\"pl-c\">\/\/ ......<\/span>\r\n}<\/pre>\n<h3>\u5bf9\u6709\u5e8f\u96c6\u5408\u8fdb\u884c\u987a\u5e8f\u65e0\u5173\u7684\u904d\u5386\u65f6\uff0c\u4f7f\u7528\u9006\u5e8f\u904d\u5386<\/h3>\n<p>\u9006\u5e8f\u904d\u5386\u53ef\u4ee5\u8282\u7701\u53d8\u91cf\uff0c\u4ee3\u7801\u6bd4\u8f83\u4f18\u5316\u3002<\/p>\n<pre><span class=\"pl-k\">var<\/span> len <span class=\"pl-k\">=<\/span> <span class=\"pl-smi\">elements<\/span>.<span class=\"pl-c1\">length<\/span>;\r\n<span class=\"pl-k\">while<\/span> (len<span class=\"pl-k\">--<\/span>) {\r\n    <span class=\"pl-k\">var<\/span> element <span class=\"pl-k\">=<\/span> elements[len];\r\n    <span class=\"pl-c\">\/\/ ......<\/span>\r\n}<\/pre>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>\u4e0d\u8981\u5728\u5faa\u73af\u4f53\u4e2d\u5305\u542b\u51fd\u6570\u8868\u8fbe\u5f0f\uff0c\u4e8b\u5148\u5c06\u51fd\u6570\u63d0\u53d6\u5230\u5faa\u73af\u4f53\u5916 \u5faa\u73af\u4f53\u4e2d\u7684\u51fd\u6570\u8868\u8fbe\u5f0f\uff0c\u8fd0\u884c\u8fc7\u7a0b\u4e2d\u4f1a\u751f\u6210\u5faa\u73af\u6b21\u6570\u4e2a\u51fd\u6570\u5bf9 [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [4],
+    "tags": [],
+    "_links": {
+        "self": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/283"
+        }],
+        "collection": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts"
+        }],
+        "about": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/types\/post"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/users\/1"
+        }],
+        "replies": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/comments?post=283"
+        }],
+        "version-history": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/283\/revisions"
+        }],
+        "wp:attachment": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/media?parent=283"
+        }],
+        "wp:term": [{
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/categories?post=283"
+        }, {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/tags?post=283"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 285,
+    "date": "2018-04-03T13:30:40",
+    "date_gmt": "2018-04-03T05:30:40",
+    "guid": {
+        "rendered": "http:\/\/192.168.5.9:8081\/?p=285"
+    },
+    "modified": "2018-04-03T13:30:45",
+    "modified_gmt": "2018-04-03T05:30:45",
+    "slug": "%e7%b1%bb%e5%9e%8b",
+    "status": "publish",
+    "type": "post",
+    "link": "http:\/\/192.168.5.9:8081\/2018\/04\/03\/%e7%b1%bb%e5%9e%8b\/",
+    "title": {
+        "rendered": "\u7c7b\u578b"
+    },
+    "content": {
+        "rendered": "<h3>\u7c7b\u578b\u68c0\u6d4b<\/h3>\n<p>\u7c7b\u578b\u68c0\u6d4b\u4f18\u5148\u4f7f\u7528 typeof\u3002\u5bf9\u8c61\u7c7b\u578b\u68c0\u6d4b\u4f7f\u7528 instanceof\u3002null \u6216 undefined \u7684\u68c0\u6d4b\u4f7f\u7528 == null<\/p>\n<div>\n<pre>\/\/ string\r\ntypeof variable === 'string'\r\n\r\n\/\/ number\r\ntypeof variable === 'number'\r\n\r\n\/\/ boolean\r\ntypeof variable === 'boolean'\r\n\r\n\/\/ Function\r\ntypeof variable === 'function'\r\n\r\n\/\/ Object\r\ntypeof variable === 'object'\r\n\r\n\/\/ RegExp\r\nvariable instanceof RegExp\r\n\r\n\/\/ Array\r\nvariable instanceof Array\r\n\r\n\/\/ null\r\nvariable === null\r\n\r\n\/\/ null or undefined\r\nvariable == null\r\n\r\n\/\/ undefined\r\ntypeof variable === 'undefined'<\/pre>\n<\/div>\n<h3>\u7c7b\u578b\u8f6c\u6362<\/h3>\n<ul>\n<li>\u8f6c\u6362\u6210 string \u65f6\uff0c\u4f7f\u7528 + &#8221;<\/li>\n<\/ul>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre>new String(num);\r\nnum.toString();\r\nString(num);<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre>num + '';<\/pre>\n<ul>\n<li>\u8f6c\u6362\u6210 number \u65f6\uff0c\u901a\u5e38\u4f7f\u7528 +<\/li>\n<\/ul>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre>Number(str);<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre>+str;<\/pre>\n<ul>\n<li>string \u8f6c\u6362\u6210 number\uff0c\u8981\u8f6c\u6362\u7684\u5b57\u7b26\u4e32\u7ed3\u5c3e\u5305\u542b\u975e\u6570\u5b57\u5e76\u671f\u671b\u5ffd\u7565\u65f6\uff0c\u4f7f\u7528 parseInt<\/li>\n<\/ul>\n<pre>var width = '200px';\r\nparseInt(width, 10);<\/pre>\n<ul>\n<li>\u4f7f\u7528 parseInt \u65f6\uff0c\u5fc5\u987b\u6307\u5b9a\u8fdb\u5236<\/li>\n<\/ul>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre>parseInt(str);<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre>parseInt(str, 10);<\/pre>\n<ul>\n<li>\u8f6c\u6362\u6210 boolean \u65f6\uff0c\u4f7f\u7528 !!<\/li>\n<\/ul>\n<pre>var num = 3.14;\r\n!!num;<\/pre>\n<ul>\n<li>number \u53bb\u9664\u5c0f\u6570\u70b9\uff0c\u4f7f\u7528 Math.floor \/ Math.round \/ Math.ceil\uff0c\u4e0d\u4f7f\u7528 parseInt<\/li>\n<\/ul>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre>var num = 3.14;\r\nparseInt(num, 10);<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre>var num = 3.14;\r\nMath.ceil(num);<\/pre>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>\u7c7b\u578b\u68c0\u6d4b \u7c7b\u578b\u68c0\u6d4b\u4f18\u5148\u4f7f\u7528 typeof\u3002\u5bf9\u8c61\u7c7b\u578b\u68c0\u6d4b\u4f7f\u7528 instanceof\u3002null \u6216 undefin [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [4],
+    "tags": [],
+    "_links": {
+        "self": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/285"
+        }],
+        "collection": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts"
+        }],
+        "about": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/types\/post"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/users\/1"
+        }],
+        "replies": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/comments?post=285"
+        }],
+        "version-history": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/285\/revisions"
+        }],
+        "wp:attachment": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/media?parent=285"
+        }],
+        "wp:term": [{
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/categories?post=285"
+        }, {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/tags?post=285"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 288,
+    "date": "2018-04-03T13:33:37",
+    "date_gmt": "2018-04-03T05:33:37",
+    "guid": {
+        "rendered": "http:\/\/192.168.5.9:8081\/?p=288"
+    },
+    "modified": "2018-04-03T13:33:47",
+    "modified_gmt": "2018-04-03T05:33:47",
+    "slug": "%e5%ad%97%e7%ac%a6%e4%b8%b2",
+    "status": "publish",
+    "type": "post",
+    "link": "http:\/\/192.168.5.9:8081\/2018\/04\/03\/%e5%ad%97%e7%ac%a6%e4%b8%b2\/",
+    "title": {
+        "rendered": "\u5b57\u7b26\u4e32"
+    },
+    "content": {
+        "rendered": "<h3>\u5b57\u7b26\u4e32\u5f00\u5934\u548c\u7ed3\u675f\u4f7f\u7528\u5355\u5f15\u53f7 &#8216;<\/h3>\n<ol>\n<li>\u8f93\u5165\u5355\u5f15\u53f7\u4e0d\u9700\u8981\u6309\u4f4f shift\uff0c\u65b9\u4fbf\u8f93\u5165\u3002<\/li>\n<li>\u5b9e\u9645\u4f7f\u7528\u4e2d\uff0c\u5b57\u7b26\u4e32\u7ecf\u5e38\u7528\u6765\u62fc\u63a5 HTML\u3002\u4e3a\u65b9\u4fbf HTML \u4e2d\u5305\u542b\u53cc\u5f15\u53f7\u800c\u4e0d\u9700\u8981\u8f6c\u4e49\u5199\u6cd5\u3002<\/li>\n<\/ol>\n<pre>var str = '\u6211\u662f\u4e00\u4e2a\u5b57\u7b26\u4e32';\r\nvar html = '&lt;div class=\"cls\"&gt;\u62fc\u63a5HTML\u53ef\u4ee5\u7701\u53bb\u53cc\u5f15\u53f7\u8f6c\u4e49&lt;\/div&gt;';<\/pre>\n<h3>\u4f7f\u7528 \u6570\u7ec4 \u6216 + \u62fc\u63a5\u5b57\u7b26\u4e32<\/h3>\n<ol>\n<li>\u4f7f\u7528 + \u62fc\u63a5\u5b57\u7b26\u4e32\uff0c\u5982\u679c\u62fc\u63a5\u7684\u5168\u90e8\u662f StringLiteral\uff0c\u538b\u7f29\u5de5\u5177\u53ef\u4ee5\u5bf9\u5176\u8fdb\u884c\u81ea\u52a8\u5408\u5e76\u7684\u4f18\u5316\u3002\u6240\u4ee5\uff0c\u9759\u6001\u5b57\u7b26\u4e32\u5efa\u8bae\u4f7f\u7528 + \u62fc\u63a5\u3002<\/li>\n<li>\u5728\u73b0\u4ee3\u6d4f\u89c8\u5668\u4e0b\uff0c\u4f7f\u7528 + \u62fc\u63a5\u5b57\u7b26\u4e32\uff0c\u6027\u80fd\u8f83\u6570\u7ec4\u7684\u65b9\u5f0f\u8981\u9ad8\u3002<\/li>\n<li>\u5982\u9700\u8981\u517c\u987e\u8001\u65e7\u6d4f\u89c8\u5668\uff0c\u5e94\u5c3d\u91cf\u4f7f\u7528\u6570\u7ec4\u62fc\u63a5\u5b57\u7b26\u4e32\u3002<\/li>\n<\/ol>\n<pre>\/\/ \u4f7f\u7528\u6570\u7ec4\u62fc\u63a5\u5b57\u7b26\u4e32\r\nvar str = [\r\n    \/\/ \u63a8\u8350\u6362\u884c\u5f00\u59cb\u5e76\u7f29\u8fdb\u5f00\u59cb\u7b2c\u4e00\u4e2a\u5b57\u7b26\u4e32, \u5bf9\u9f50\u4ee3\u7801, \u65b9\u4fbf\u9605\u8bfb.\r\n    '&lt;ul&gt;',\r\n        '&lt;li&gt;\u7b2c\u4e00\u9879&lt;\/li&gt;',\r\n        '&lt;li&gt;\u7b2c\u4e8c\u9879&lt;\/li&gt;',\r\n    '&lt;\/ul&gt;'\r\n].join('');\r\n\r\n\/\/ \u4f7f\u7528 `+` \u62fc\u63a5\u5b57\u7b26\u4e32\r\nvar str2 = '' \/\/ \u5efa\u8bae\u7b2c\u4e00\u4e2a\u4e3a\u7a7a\u5b57\u7b26\u4e32, \u7b2c\u4e8c\u4e2a\u6362\u884c\u5f00\u59cb\u5e76\u7f29\u8fdb\u5f00\u59cb, \u5bf9\u9f50\u4ee3\u7801, \u65b9\u4fbf\u9605\u8bfb\r\n    + '&lt;ul&gt;',\r\n    +    '&lt;li&gt;\u7b2c\u4e00\u9879&lt;\/li&gt;',\r\n    +    '&lt;li&gt;\u7b2c\u4e8c\u9879&lt;\/li&gt;',\r\n    + '&lt;\/ul&gt;';<\/pre>\n<h3>\u4f7f\u7528\u5b57\u7b26\u4e32\u62fc\u63a5\u7684\u65b9\u5f0f\u751f\u6210 HTML\uff0c\u9700\u8981\u6839\u636e\u8bed\u5883\u8fdb\u884c\u5408\u7406\u7684\u8f6c\u4e49<\/h3>\n<p>\u5728 JavaScript \u4e2d\u62fc\u63a5\uff0c\u5e76\u4e14\u6700\u7ec8\u5c06\u8f93\u51fa\u5230\u9875\u9762\u4e2d\u7684\u5b57\u7b26\u4e32\uff0c\u9700\u8981\u8fdb\u884c\u5408\u7406\u8f6c\u4e49\uff0c\u4ee5\u9632\u6b62\u5b89\u5168\u6f0f\u6d1e\u3002\u4e0b\u9762\u7684\u793a\u4f8b\u4ee3\u7801\u4e3a\u573a\u666f\u8bf4\u660e\uff0c\u4e0d\u80fd\u76f4\u63a5\u8fd0\u884c\u3002<\/p>\n<pre>\/\/ HTML \u8f6c\u4e49\r\nvar str = '&lt;p&gt;' + htmlEncode(content) + '&lt;\/p&gt;';\r\n\r\n\/\/ HTML \u8f6c\u4e49\r\nvar str = '&lt;input type=\"text\" value=\"' + htmlEncode(value) + '\"&gt;';\r\n\r\n\/\/ URL \u8f6c\u4e49\r\nvar str = '&lt;a href=\"\/?key=' + htmlEncode(urlEncode(value)) + '\"&gt;link&lt;\/a&gt;';\r\n\r\n\/\/ JavaScript\u5b57\u7b26\u4e32 \u8f6c\u4e49 + HTML \u8f6c\u4e49\r\nvar str = '&lt;button onclick=\"check(\\'' + htmlEncode(strLiteral(name)) + '\\')\"&gt;\u63d0\u4ea4&lt;\/button&gt;';<\/pre>\n<h3>\u590d\u6742\u7684\u6570\u636e\u5230\u89c6\u56fe\u5b57\u7b26\u4e32\u7684\u8f6c\u6362\u8fc7\u7a0b\uff0c\u9009\u7528\u4e00\u79cd\u6a21\u677f\u5f15\u64ce<\/h3>\n<p>\u4f7f\u7528\u6a21\u677f\u5f15\u64ce\u6709\u5982\u4e0b\u597d\u5904\uff1a<\/p>\n<ol>\n<li>\u5728\u5f00\u53d1\u8fc7\u7a0b\u4e2d\u4e13\u6ce8\u4e8e\u6570\u636e\uff0c\u5c06\u89c6\u56fe\u751f\u6210\u7684\u8fc7\u7a0b\u7531\u53e6\u5916\u4e00\u4e2a\u5c42\u7ea7\u7ef4\u62a4\uff0c\u4f7f\u7a0b\u5e8f\u903b\u8f91\u7ed3\u6784\u66f4\u6e05\u6670\u3002<\/li>\n<li>\u4f18\u79c0\u7684\u6a21\u677f\u5f15\u64ce\uff0c\u901a\u8fc7\u6a21\u677f\u7f16\u8bd1\u6280\u672f\u548c\u9ad8\u8d28\u91cf\u7684\u7f16\u8bd1\u4ea7\u7269\uff0c\u80fd\u83b7\u5f97\u6bd4\u624b\u5de5\u62fc\u63a5\u5b57\u7b26\u4e32\u66f4\u9ad8\u7684\u6027\u80fd\u3002<\/li>\n<li>\u6a21\u677f\u5f15\u64ce\u80fd\u65b9\u4fbf\u7684\u5bf9\u52a8\u6001\u6570\u636e\u8fdb\u884c\u76f8\u5e94\u7684\u8f6c\u4e49\uff0c\u90e8\u5206\u6a21\u677f\u5f15\u64ce\u9ed8\u8ba4\u8fdb\u884cHTML\u8f6c\u4e49\uff0c\u5b89\u5168\u6027\u66f4\u597d\u3002<\/li>\n<\/ol>\n<ul>\n<li>artTemplate: \u4f53\u79ef\u8f83\u5c0f\uff0c\u5728\u6240\u6709\u73af\u5883\u4e0b\u6027\u80fd\u9ad8\uff0c\u8bed\u6cd5\u7075\u6d3b\u3002<\/li>\n<li>dot.js: \u4f53\u79ef\u5c0f\uff0c\u5728\u73b0\u4ee3\u6d4f\u89c8\u5668\u4e0b\u6027\u80fd\u9ad8\uff0c\u8bed\u6cd5\u7075\u6d3b\u3002<\/li>\n<li>etpl: \u4f53\u79ef\u8f83\u5c0f\uff0c\u5728\u6240\u6709\u73af\u5883\u4e0b\u6027\u80fd\u9ad8\uff0c\u6a21\u677f\u590d\u7528\u6027\u9ad8\uff0c\u8bed\u6cd5\u7075\u6d3b\u3002<\/li>\n<li>handlebars: \u4f53\u79ef\u5927\uff0c\u5728\u6240\u6709\u73af\u5883\u4e0b\u6027\u80fd\u9ad8\uff0c\u6269\u5c55\u6027\u9ad8\u3002<\/li>\n<li>hogon: \u4f53\u79ef\u5c0f\uff0c\u5728\u73b0\u4ee3\u6d4f\u89c8\u5668\u4e0b\u6027\u80fd\u9ad8\u3002<\/li>\n<li>nunjucks: \u4f53\u79ef\u8f83\u5927\uff0c\u6027\u80fd\u4e00\u822c\uff0c\u6a21\u677f\u590d\u7528\u6027\u9ad8\u3002<\/li>\n<\/ul>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>\u5b57\u7b26\u4e32\u5f00\u5934\u548c\u7ed3\u675f\u4f7f\u7528\u5355\u5f15\u53f7 &#8216; \u8f93\u5165\u5355\u5f15\u53f7\u4e0d\u9700\u8981\u6309\u4f4f shift\uff0c\u65b9\u4fbf\u8f93\u5165\u3002 \u5b9e\u9645\u4f7f\u7528\u4e2d\uff0c\u5b57\u7b26\u4e32\u7ecf [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [4],
+    "tags": [],
+    "_links": {
+        "self": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/288"
+        }],
+        "collection": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts"
+        }],
+        "about": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/types\/post"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/users\/1"
+        }],
+        "replies": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/comments?post=288"
+        }],
+        "version-history": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/288\/revisions"
+        }],
+        "wp:attachment": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/media?parent=288"
+        }],
+        "wp:term": [{
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/categories?post=288"
+        }, {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/tags?post=288"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 290,
+    "date": "2018-04-03T13:38:40",
+    "date_gmt": "2018-04-03T05:38:40",
+    "guid": {
+        "rendered": "http:\/\/192.168.5.9:8081\/?p=290"
+    },
+    "modified": "2018-04-03T13:38:47",
+    "modified_gmt": "2018-04-03T05:38:47",
+    "slug": "%e5%af%b9%e8%b1%a1",
+    "status": "publish",
+    "type": "post",
+    "link": "http:\/\/192.168.5.9:8081\/2018\/04\/03\/%e5%af%b9%e8%b1%a1\/",
+    "title": {
+        "rendered": "\u5bf9\u8c61"
+    },
+    "content": {
+        "rendered": "<h3>\u4f7f\u7528\u5bf9\u8c61\u5b57\u9762\u91cf {} \u521b\u5efa\u65b0 Object<\/h3>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre>var obj = new Object();<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre>var obj = {};<\/pre>\n<h3>\u5bf9\u8c61\u521b\u5efa\u65f6\uff0c\u5982\u679c\u4e00\u4e2a\u5bf9\u8c61\u7684\u6240\u6709 \u5c5e\u6027 \u5747\u53ef\u4ee5\u4e0d\u6dfb\u52a0\u5f15\u53f7\uff0c\u5efa\u8bae\u6240\u6709 \u5c5e\u6027 \u4e0d\u6dfb\u52a0\u5f15\u53f7<\/h3>\n<pre>var info = {\r\n    name: 'someone',\r\n    age: 28\r\n};<\/pre>\n<h3>\u5bf9\u8c61\u521b\u5efa\u65f6\uff0c\u5982\u679c\u4efb\u4f55\u4e00\u4e2a \u5c5e\u6027 \u9700\u8981\u6dfb\u52a0\u5f15\u53f7\uff0c\u5219\u6240\u6709 \u5c5e\u6027 \u5efa\u8bae\u6dfb\u52a0 &#8216;<\/h3>\n<p>\u5982\u679c\u5c5e\u6027\u4e0d\u7b26\u5408 Identifier \u548c NumberLiteral \u7684\u5f62\u5f0f\uff0c\u5c31\u9700\u8981\u4ee5 StringLiteral \u7684\u5f62\u5f0f\u63d0\u4f9b\u3002<\/p>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre>var info = {\r\n    name: 'someone',\r\n    age: 28,\r\n    'more-info': '...'\r\n};<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre>var info = {\r\n    'name': 'someone',\r\n    'age': 28,\r\n    'more-info': '...'\r\n};<\/pre>\n<h3>\u4e0d\u5141\u8bb8\u4fee\u6539\u548c\u6269\u5c55\u4efb\u4f55\u539f\u751f\u5bf9\u8c61\u548c\u5bbf\u4e3b\u5bf9\u8c61\u7684\u539f\u578b<\/h3>\n<pre>\/\/ \u4ee5\u4e0b\u884c\u4e3a\u7edd\u5bf9\u7981\u6b62\r\nString.prototype.trim = function () {\r\n};<\/pre>\n<h3>\u5c5e\u6027\u8bbf\u95ee\u65f6\uff0c\u5c3d\u91cf\u4f7f\u7528 .<\/h3>\n<p>\u5c5e\u6027\u540d\u7b26\u5408 Identifier \u7684\u8981\u6c42\uff0c\u5c31\u53ef\u4ee5\u901a\u8fc7 . \u6765\u8bbf\u95ee\uff0c\u5426\u5219\u5c31\u53ea\u80fd\u901a\u8fc7 [expr] \u65b9\u5f0f\u8bbf\u95ee\u3002<\/p>\n<p>\u901a\u5e38\u5728 JavaScript \u4e2d\u58f0\u660e\u7684\u5bf9\u8c61\uff0c\u5c5e\u6027\u547d\u540d\u662f\u4f7f\u7528 Camel \u547d\u540d\u6cd5\uff0c\u7528 . \u6765\u8bbf\u95ee\u66f4\u6e05\u6670\u7b80\u6d01\u3002\u90e8\u5206\u7279\u6b8a\u7684\u5c5e\u6027\uff08\u6bd4\u5982\u6765\u81ea\u540e\u7aef\u7684 JSON \uff09\uff0c\u53ef\u80fd\u91c7\u7528\u4e0d\u5bfb\u5e38\u7684\u547d\u540d\u65b9\u5f0f\uff0c\u53ef\u4ee5\u901a\u8fc7 [expr] \u65b9\u5f0f\u8bbf\u95ee\u3002<\/p>\n<pre>info.age;\r\ninfo['more-info'];<\/pre>\n<h3>for in \u904d\u5386\u5bf9\u8c61\u65f6, \u4f7f\u7528 hasOwnProperty \u8fc7\u6ee4\u6389\u539f\u578b\u4e2d\u7684\u5c5e\u6027<\/h3>\n<pre>var newInfo = {};\r\nfor (var key in info) {\r\n    if (info.hasOwnProperty(key)) {\r\n        newInfo[key] = info[key];\r\n    }\r\n}<\/pre>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>\u4f7f\u7528\u5bf9\u8c61\u5b57\u9762\u91cf {} \u521b\u5efa\u65b0 Object \u4e0d\u63a8\u8350\uff1a var obj = new Object(); \u63a8\u8350\uff1a  [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [4],
+    "tags": [],
+    "_links": {
+        "self": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/290"
+        }],
+        "collection": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts"
+        }],
+        "about": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/types\/post"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/users\/1"
+        }],
+        "replies": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/comments?post=290"
+        }],
+        "version-history": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/290\/revisions"
+        }],
+        "wp:attachment": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/media?parent=290"
+        }],
+        "wp:term": [{
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/categories?post=290"
+        }, {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/tags?post=290"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 293,
+    "date": "2018-04-03T13:41:03",
+    "date_gmt": "2018-04-03T05:41:03",
+    "guid": {
+        "rendered": "http:\/\/192.168.5.9:8081\/?p=293"
+    },
+    "modified": "2018-04-03T13:41:16",
+    "modified_gmt": "2018-04-03T05:41:16",
+    "slug": "%e6%95%b0%e7%bb%84",
+    "status": "publish",
+    "type": "post",
+    "link": "http:\/\/192.168.5.9:8081\/2018\/04\/03\/%e6%95%b0%e7%bb%84\/",
+    "title": {
+        "rendered": "\u6570\u7ec4"
+    },
+    "content": {
+        "rendered": "<h3>\u4f7f\u7528\u6570\u7ec4\u5b57\u9762\u91cf [] \u521b\u5efa\u65b0\u6570\u7ec4\uff0c\u9664\u975e\u60f3\u8981\u521b\u5efa\u7684\u662f\u6307\u5b9a\u957f\u5ea6\u7684\u6570\u7ec4<\/h3>\n<p>\u4e0d\u63a8\u8350\uff1a<\/p>\n<pre>var arr = new Array();<\/pre>\n<p>\u63a8\u8350\uff1a<\/p>\n<pre>var arr = [];<\/pre>\n<h3>\u904d\u5386\u6570\u7ec4\u4e0d\u4f7f\u7528 for in<\/h3>\n<p>\u6570\u7ec4\u5bf9\u8c61\u53ef\u80fd\u5b58\u5728\u6570\u5b57\u4ee5\u5916\u7684\u5c5e\u6027, \u8fd9\u79cd\u60c5\u51b5\u4e0b for in \u4e0d\u4f1a\u5f97\u5230\u6b63\u786e\u7ed3\u679c\u3002<\/p>\n<pre>var arr = ['a', 'b', 'c'];\r\n\r\n\/\/ \u8fd9\u91cc\u4ec5\u4f5c\u6f14\u793a, \u5b9e\u9645\u4e2d\u5e94\u4f7f\u7528 Object \u7c7b\u578b\r\narr.other = 'other things';\r\n\r\n\/\/ \u6b63\u786e\u7684\u904d\u5386\u65b9\u5f0f\r\nfor (var i = 0, len = arr.length; i &lt; len; i++) {\r\n    console.log(i);\r\n}\r\n\r\n\/\/ \u9519\u8bef\u7684\u904d\u5386\u65b9\u5f0f\r\nfor (var i in arr) {\r\n    console.log(i);\r\n}<\/pre>\n<h3>\u4e0d\u56e0\u4e3a\u6027\u80fd\u7684\u539f\u56e0\u81ea\u5df1\u5b9e\u73b0\u6570\u7ec4\u6392\u5e8f\u529f\u80fd\uff0c\u5c3d\u91cf\u4f7f\u7528\u6570\u7ec4\u7684 sort \u65b9\u6cd5<\/h3>\n<p>\u81ea\u5df1\u5b9e\u73b0\u7684\u5e38\u89c4\u6392\u5e8f\u7b97\u6cd5\uff0c\u5728\u6027\u80fd\u4e0a\u5e76\u4e0d\u4f18\u4e8e\u6570\u7ec4\u9ed8\u8ba4\u7684 sort \u65b9\u6cd5\u3002\u4ee5\u4e0b\u4e24\u79cd\u573a\u666f\u53ef\u4ee5\u81ea\u5df1\u5b9e\u73b0\u6392\u5e8f\uff1a<\/p>\n<ol>\n<li>\u9700\u8981\u7a33\u5b9a\u7684\u6392\u5e8f\u7b97\u6cd5\uff0c\u8fbe\u5230\u4e25\u683c\u4e00\u81f4\u7684\u6392\u5e8f\u7ed3\u679c\u3002<\/li>\n<li>\u6570\u636e\u7279\u70b9\u9c9c\u660e\uff0c\u9002\u5408\u4f7f\u7528\u6876\u6392\u3002<\/li>\n<\/ol>\n<h3>\u6e05\u7a7a\u6570\u7ec4\u4f7f\u7528 .length = 0<\/h3>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>\u4f7f\u7528\u6570\u7ec4\u5b57\u9762\u91cf [] \u521b\u5efa\u65b0\u6570\u7ec4\uff0c\u9664\u975e\u60f3\u8981\u521b\u5efa\u7684\u662f\u6307\u5b9a\u957f\u5ea6\u7684\u6570\u7ec4 \u4e0d\u63a8\u8350\uff1a var arr = new Arr [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [4],
+    "tags": [],
+    "_links": {
+        "self": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/293"
+        }],
+        "collection": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts"
+        }],
+        "about": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/types\/post"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/users\/1"
+        }],
+        "replies": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/comments?post=293"
+        }],
+        "version-history": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/293\/revisions"
+        }],
+        "wp:attachment": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/media?parent=293"
+        }],
+        "wp:term": [{
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/categories?post=293"
+        }, {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/tags?post=293"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 295,
+    "date": "2018-04-03T13:46:42",
+    "date_gmt": "2018-04-03T05:46:42",
+    "guid": {
+        "rendered": "http:\/\/192.168.5.9:8081\/?p=295"
+    },
+    "modified": "2018-04-03T14:09:48",
+    "modified_gmt": "2018-04-03T06:09:48",
+    "slug": "%e5%87%bd%e6%95%b0",
+    "status": "publish",
+    "type": "post",
+    "link": "http:\/\/192.168.5.9:8081\/2018\/04\/03\/%e5%87%bd%e6%95%b0\/",
+    "title": {
+        "rendered": "\u51fd\u6570"
+    },
+    "content": {
+        "rendered": "<h3>\u51fd\u6570\u957f\u5ea6<\/h3>\n<p>\u4e00\u4e2a\u51fd\u6570\u7684\u957f\u5ea6\u63a7\u5236\u5728 50 \u884c\u4ee5\u5185\u3002<\/p>\n<p>\u5c06\u8fc7\u591a\u7684\u903b\u8f91\u5355\u5143\u6df7\u5728\u4e00\u4e2a\u5927\u51fd\u6570\u4e2d\uff0c\u6613\u5bfc\u81f4\u96be\u4ee5\u7ef4\u62a4\u3002\u4e00\u4e2a\u6e05\u6670\u6613\u61c2\u7684\u51fd\u6570\u5e94\u8be5\u5b8c\u6210\u5355\u4e00\u7684\u903b\u8f91\u5355\u5143\u3002\u590d\u6742\u7684\u64cd\u4f5c\u5e94\u8fdb\u4e00\u6b65\u62bd\u53d6\uff0c\u901a\u8fc7\u51fd\u6570\u7684\u8c03\u7528\u6765\u4f53\u73b0\u6d41\u7a0b\u3002<\/p>\n<p>\u7279\u5b9a\u7b97\u6cd5\u7b49\u4e0d\u53ef\u5206\u5272\u7684\u903b\u8f91\u5141\u8bb8\u4f8b\u5916\u3002<\/p>\n<pre>function syncViewStateOnUserAction() {\r\n    if (x.checked) {\r\n        y.checked = true;\r\n        z.value = '';\r\n    }\r\n    else {\r\n        y.checked = false;\r\n    }\r\n\r\n    if (a.value) {\r\n        warning.innerText = '';\r\n        submitButton.disabled = false;\r\n    }\r\n    else {\r\n        warning.innerText = 'Please enter it';\r\n        submitButton.disabled = true;\r\n    }\r\n}\r\n\r\n\/\/ \u76f4\u63a5\u9605\u8bfb\u8be5\u51fd\u6570\u4f1a\u96be\u4ee5\u660e\u786e\u5176\u4e3b\u7ebf\u903b\u8f91\uff0c\u56e0\u6b64\u4e0b\u65b9\u662f\u4e00\u79cd\u66f4\u5408\u7406\u7684\u8868\u8fbe\u65b9\u5f0f\uff1a\r\n\r\nfunction syncViewStateOnUserAction() {\r\n    syncXStateToView();\r\n    checkAAvailability();\r\n}\r\n\r\nfunction syncXStateToView() {\r\n    y.checked = x.checked;\r\n\r\n    if (x.checked) {\r\n        z.value = '';\r\n    }\r\n}\r\n\r\nfunction checkAAvailability() {\r\n    if (a.value) {\r\n        clearWarnignForA();\r\n    }\r\n    else {\r\n        displayWarningForAMissing();\r\n    }\r\n}<\/pre>\n<h3>\u53c2\u6570\u8bbe\u8ba1<\/h3>\n<ul>\n<li>\u4e00\u4e2a\u51fd\u6570\u7684\u53c2\u6570\u63a7\u5236\u5728 6 \u4e2a\u4ee5\u5185\u3002<\/li>\n<\/ul>\n<p>\u9664\u53bb\u4e0d\u5b9a\u957f\u53c2\u6570\u4ee5\u5916\uff0c\u51fd\u6570\u5177\u5907\u4e0d\u540c\u903b\u8f91\u610f\u4e49\u7684\u53c2\u6570\u5efa\u8bae\u63a7\u5236\u5728 6 \u4e2a\u4ee5\u5185\uff0c\u8fc7\u591a\u53c2\u6570\u4f1a\u5bfc\u81f4\u7ef4\u62a4\u96be\u5ea6\u589e\u5927\u3002<\/p>\n<p>\u67d0\u4e9b\u60c5\u51b5\u4e0b\uff0c\u5982\u4f7f\u7528 AMD Loader \u7684 require \u52a0\u8f7d\u591a\u4e2a\u6a21\u5757\u65f6\uff0c\u5176 callback \u53ef\u80fd\u4f1a\u5b58\u5728\u8f83\u591a\u53c2\u6570\uff0c\u56e0\u6b64\u5bf9\u51fd\u6570\u53c2\u6570\u7684\u4e2a\u6570\u4e0d\u505a\u5f3a\u5236\u9650\u5236\u3002<\/p>\n<ul>\n<li>\u901a\u8fc7 options \u53c2\u6570\u4f20\u9012\u975e\u6570\u636e\u8f93\u5165\u578b\u53c2\u6570<\/li>\n<\/ul>\n<p>\u6709\u4e9b\u51fd\u6570\u7684\u53c2\u6570\u5e76\u4e0d\u662f\u4f5c\u4e3a\u7b97\u6cd5\u7684\u8f93\u5165\uff0c\u800c\u662f\u5bf9\u7b97\u6cd5\u7684\u67d0\u4e9b\u5206\u652f\u6761\u4ef6\u5224\u65ad\u4e4b\u7528\uff0c\u6b64\u7c7b\u53c2\u6570\u5efa\u8bae\u901a\u8fc7\u4e00\u4e2a options \u53c2\u6570\u4f20\u9012\u3002<\/p>\n<p>\u5982\uff1a<\/p>\n<pre>\/**\r\n * \u79fb\u9664\u67d0\u4e2a\u5143\u7d20\r\n *\r\n * @param {Node} element \u9700\u8981\u79fb\u9664\u7684\u5143\u7d20\r\n * @param {boolean} removeEventListeners \u662f\u5426\u540c\u65f6\u5c06\u6240\u6709\u6ce8\u518c\u5728\u5143\u7d20\u4e0a\u7684\u4e8b\u4ef6\u79fb\u9664\r\n *\/\r\nfunction removeElement(element, removeEventListeners) {\r\n    element.parent.removeChild(element);\r\n\r\n    if (removeEventListeners) {\r\n        element.clearEventListeners();\r\n    }\r\n}<\/pre>\n<p>\u53ef\u4ee5\u8f6c\u6362\u4e3a\u4e0b\u9762\u7684\u7b7e\u540d\uff1a<\/p>\n<pre>\/**\r\n * \u79fb\u9664\u67d0\u4e2a\u5143\u7d20\r\n *\r\n * @param {Node} element \u9700\u8981\u79fb\u9664\u7684\u5143\u7d20\r\n * @param {Object} options \u76f8\u5173\u7684\u903b\u8f91\u914d\u7f6e\r\n * @param {boolean} options.removeEventListeners \u662f\u5426\u540c\u65f6\u5c06\u6240\u6709\u6ce8\u518c\u5728\u5143\u7d20\u4e0a\u7684\u4e8b\u4ef6\u79fb\u9664\r\n *\/\r\nfunction removeElement(element, options) {\r\n    element.parent.removeChild(element);\r\n\r\n    if (options.removeEventListeners) {\r\n        element.clearEventListeners();\r\n    }\r\n}<\/pre>\n<p>\u8fd9\u79cd\u6a21\u5f0f\u6709\u51e0\u4e2a\u663e\u8457\u7684\u4f18\u52bf\uff1a<\/p>\n<ul>\n<li>boolean \u578b\u7684\u914d\u7f6e\u9879\u5177\u5907\u540d\u79f0\uff0c\u4ece\u8c03\u7528\u7684\u4ee3\u7801\u4e0a\u66f4\u6613\u7406\u89e3\u5176\u8868\u8fbe\u7684\u903b\u8f91\u610f\u4e49\u3002<\/li>\n<li>\u5f53\u914d\u7f6e\u9879\u6709\u589e\u957f\u65f6\uff0c\u65e0\u9700\u65e0\u4f11\u6b62\u5730\u589e\u52a0\u53c2\u6570\u4e2a\u6570\uff0c\u4e0d\u4f1a\u51fa\u73b0 removeElement(element, true, false, false, 3) \u8fd9\u6837\u96be\u4ee5\u7406\u89e3\u7684\u8c03\u7528\u4ee3\u7801\u3002<\/li>\n<li>\u5f53\u90e8\u5206\u914d\u7f6e\u53c2\u6570\u53ef\u9009\u65f6\uff0c\u591a\u4e2a\u53c2\u6570\u7684\u5f62\u5f0f\u975e\u5e38\u96be\u5904\u7406\u91cd\u8f7d\u903b\u8f91\uff0c\u800c\u4f7f\u7528\u4e00\u4e2a options \u5bf9\u8c61\u53ea\u9700\u5224\u65ad\u5c5e\u6027\u662f\u5426\u5b58\u5728\uff0c\u5b9e\u73b0\u5f97\u4ee5\u7b80\u5316\u3002<\/li>\n<\/ul>\n<h3>\u95ed\u5305<\/h3>\n<ul>\n<li>\u5728\u9002\u5f53\u7684\u65f6\u5019\u5c06\u95ed\u5305\u5185\u5927\u5bf9\u8c61\u7f6e\u4e3a null<\/li>\n<\/ul>\n<p>\u5728 JavaScript \u4e2d\uff0c\u65e0\u9700\u7279\u522b\u7684\u5173\u952e\u8bcd\u5c31\u53ef\u4ee5\u4f7f\u7528\u95ed\u5305\uff0c\u4e00\u4e2a\u51fd\u6570\u53ef\u4ee5\u4efb\u610f\u8bbf\u95ee\u5728\u5176\u5b9a\u4e49\u7684\u4f5c\u7528\u57df\u5916\u7684\u53d8\u91cf\u3002\u9700\u8981\u6ce8\u610f\u7684\u662f\uff0c\u51fd\u6570\u7684\u4f5c\u7528\u57df\u662f\u9759\u6001\u7684\uff0c\u5373\u5728\u5b9a\u4e49\u65f6\u51b3\u5b9a\uff0c\u4e0e\u8c03\u7528\u7684\u65f6\u673a\u548c\u65b9\u5f0f\u6ca1\u6709\u4efb\u4f55\u5173\u7cfb\u3002<\/p>\n<p>\u95ed\u5305\u4f1a\u963b\u6b62\u4e00\u4e9b\u53d8\u91cf\u7684\u5783\u573e\u56de\u6536\uff0c\u5bf9\u4e8e\u8f83\u8001\u65e7\u7684 JavaScript \u5f15\u64ce\uff0c\u53ef\u80fd\u5bfc\u81f4\u5916\u90e8\u6240\u6709\u53d8\u91cf\u5747\u65e0\u6cd5\u56de\u6536\u3002<\/p>\n<p>\u9996\u5148\u4e00\u4e2a\u8f83\u4e3a\u660e\u786e\u7684\u7ed3\u8bba\u662f\uff0c\u4ee5\u4e0b\u5185\u5bb9\u4f1a\u5f71\u54cd\u5230\u95ed\u5305\u5185\u53d8\u91cf\u7684\u56de\u6536\uff1a<\/p>\n<ul>\n<li>\u5d4c\u5957\u7684\u51fd\u6570\u4e2d\u662f\u5426\u6709\u4f7f\u7528\u8be5\u53d8\u91cf\u3002<\/li>\n<li>\u5d4c\u5957\u7684\u51fd\u6570\u4e2d\u662f\u5426\u6709 \u76f4\u63a5\u8c03\u7528eval\u3002<\/li>\n<li>\u662f\u5426\u4f7f\u7528\u4e86 with \u8868\u8fbe\u5f0f\u3002<\/li>\n<\/ul>\n<p>Chakra\u3001V8 \u548c SpiderMonkey \u5c06\u53d7\u4ee5\u4e0a\u56e0\u7d20\u7684\u5f71\u54cd\uff0c\u8868\u73b0\u51fa\u4e0d\u5c3d\u76f8\u540c\u53c8\u8f83\u4e3a\u76f8\u4f3c\u7684\u56de\u6536\u7b56\u7565\uff0c\u800c JScript.dll \u548c Carakan \u5219\u5b8c\u5168\u6ca1\u6709\u8fd9\u65b9\u9762\u7684\u4f18\u5316\uff0c\u4f1a\u5b8c\u6574\u4fdd\u7559\u6574\u4e2a LexicalEnvironment \u4e2d\u7684\u6240\u6709\u53d8\u91cf\u7ed1\u5b9a\uff0c\u9020\u6210\u4e00\u5b9a\u7684\u5185\u5b58\u6d88\u8017\u3002<\/p>\n<p>\u7531\u4e8e\u5bf9\u95ed\u5305\u5185\u53d8\u91cf\u6709\u56de\u6536\u4f18\u5316\u7b56\u7565\u7684 Chakra\u3001V8 \u548c SpiderMonkey \u5f15\u64ce\u7684\u884c\u4e3a\u8f83\u4e3a\u76f8\u4f3c\uff0c\u56e0\u6b64\u53ef\u4ee5\u603b\u7ed3\u5982\u4e0b\uff0c\u5f53\u8fd4\u56de\u4e00\u4e2a\u51fd\u6570 fn \u65f6\uff1a<\/p>\n<ol>\n<li>\u5982\u679c fn \u7684 [[Scope]] \u662f ObjectEnvironment\uff08with \u8868\u8fbe\u5f0f\u751f\u6210 ObjectEnvironment\uff0c\u51fd\u6570\u548c catch \u8868\u8fbe\u5f0f\u751f\u6210 DeclarativeEnvironment\uff09\uff0c\u5219\uff1a\n<ol>\n<li>\u5982\u679c\u662f V8 \u5f15\u64ce\uff0c\u5219\u9000\u51fa\u5168\u8fc7\u7a0b\u3002<\/li>\n<li>\u5982\u679c\u662f SpiderMonkey\uff0c\u5219\u5904\u7406\u8be5 ObjectEnvironment \u7684\u5916\u5c42 LexicalEnvironment\u3002<\/li>\n<\/ol>\n<\/li>\n<li>\u83b7\u53d6\u5f53\u524d LexicalEnvironment \u4e0b\u7684\u6240\u6709\u7c7b\u578b\u4e3a Function \u7684\u5bf9\u8c61\uff0c\u5bf9\u4e8e\u6bcf\u4e00\u4e2a Function \u5bf9\u8c61\uff0c\u5206\u6790\u5176 FunctionBody\uff1a\n<ol>\n<li>\u5982\u679c FunctionBody \u4e2d\u542b\u6709 \u76f4\u63a5\u8c03\u7528 eval\uff0c\u5219\u9000\u51fa\u5168\u8fc7\u7a0b\u3002<\/li>\n<li>\u5426\u5219\u5f97\u5230\u6240\u6709\u7684 Identifier\u3002<\/li>\n<li>\u5bf9\u4e8e\u6bcf\u4e00\u4e2a Identifier\uff0c\u8bbe\u5176\u4e3a name\uff0c\u6839\u636e\u67e5\u627e\u53d8\u91cf\u5f15\u7528\u7684\u89c4\u5219\uff0c\u4ece LexicalEnvironment \u4e2d\u627e\u51fa\u540d\u79f0\u4e3a name \u7684\u7ed1\u5b9a binding\u3002<\/li>\n<li>\u5bf9 binding \u6dfb\u52a0 notSwap \u5c5e\u6027\uff0c\u5176\u503c\u4e3a true\u3002<\/li>\n<\/ol>\n<\/li>\n<li>\u68c0\u67e5\u5f53\u524d LexicalEnvironment \u4e2d\u7684\u6bcf\u4e00\u4e2a\u53d8\u91cf\u7ed1\u5b9a\uff0c\u5982\u679c\u8be5\u7ed1\u5b9a\u6709 notSwap \u5c5e\u6027\u4e14\u503c\u4e3a true\uff0c\u5219\uff1a\n<ol>\n<li>\u5982\u679c\u662f V8 \u5f15\u64ce\uff0c\u5220\u9664\u8be5\u7ed1\u5b9a\u3002<\/li>\n<li>\u5982\u679c\u662f SpiderMonkey\uff0c\u5c06\u8be5\u7ed1\u5b9a\u7684\u503c\u8bbe\u4e3a undefined\uff0c\u5c06\u5220\u9664 notSwap \u5c5e\u6027\u3002<\/li>\n<\/ol>\n<\/li>\n<\/ol>\n<p>\u5bf9\u4e8e Chakra \u5f15\u64ce\uff0c\u6682\u65e0\u6cd5\u5f97\u77e5\u662f\u6309 V8 \u7684\u6a21\u5f0f\u8fd8\u662f\u6309 SpiderMonkey \u7684\u6a21\u5f0f\u8fdb\u884c\u3002<\/p>\n<p>\u5982\u679c\u6709 \u975e\u5e38\u5e9e\u5927 \u7684\u5bf9\u8c61\uff0c\u4e14\u9884\u8ba1\u4f1a\u5728 \u8001\u65e7\u7684\u5f15\u64ce \u4e2d\u6267\u884c\uff0c\u5219\u4f7f\u7528\u95ed\u5305\u65f6\uff0c\u6ce8\u610f\u5c06\u95ed\u5305\u4e0d\u9700\u8981\u7684\u5bf9\u8c61\u7f6e\u4e3a\u7a7a\u5f15\u7528\u3002<\/p>\n<ul>\n<li>\u4f7f\u7528 IIFE \u907f\u514d Lift \u6548\u5e94<\/li>\n<\/ul>\n<p>\u5728\u5f15\u7528\u51fd\u6570\u5916\u90e8\u53d8\u91cf\u65f6\uff0c\u51fd\u6570\u6267\u884c\u65f6\u5916\u90e8\u53d8\u91cf\u7684\u503c\u7531\u8fd0\u884c\u65f6\u51b3\u5b9a\u800c\u975e\u5b9a\u4e49\u65f6\uff0c\u6700\u5178\u578b\u7684\u573a\u666f\u5982\u4e0b\uff1a<\/p>\n<pre>var tasks = [];\r\nfor (var i = 0; i &lt; 5; i++) {\r\n    tasks[tasks.length] = function () {\r\n        console.log('Current cursor is at ' + i);\r\n    };\r\n}\r\n\r\nvar len = tasks.length;\r\nwhile (len--) {\r\n    tasks[len]();\r\n}<\/pre>\n<p>\u4ee5\u4e0a\u4ee3\u7801\u5bf9 tasks \u4e2d\u7684\u51fd\u6570\u7684\u6267\u884c\u5747\u4f1a\u8f93\u51fa Current cursor is at 5\uff0c\u5f80\u5f80\u4e0d\u7b26\u5408\u9884\u671f\u3002<\/p>\n<p>\u6b64\u73b0\u8c61\u79f0\u4e3a Lift \u6548\u5e94 \u3002\u89e3\u51b3\u7684\u65b9\u5f0f\u662f\u901a\u8fc7\u989d\u5916\u52a0\u4e0a\u4e00\u5c42\u95ed\u5305\u51fd\u6570\uff0c\u5c06\u9700\u8981\u7684\u5916\u90e8\u53d8\u91cf\u4f5c\u4e3a\u53c2\u6570\u4f20\u9012\u6765\u89e3\u9664\u53d8\u91cf\u7684\u7ed1\u5b9a\u5173\u7cfb\uff1a<\/p>\n<div>\n<pre>var tasks = [];\r\nfor (var i = 0; i &lt; 5; i++) {\r\n    \/\/ \u6ce8\u610f\u6709\u4e00\u5c42\u989d\u5916\u7684\u95ed\u5305\r\n    tasks[tasks.length] = (function (i) {\r\n        return function () {\r\n            console.log('Current cursor is at ' + i);\r\n        };\r\n    })(i);\r\n}\r\n\r\nvar len = tasks.length;\r\nwhile (len--) {\r\n    tasks[len]();\r\n}<\/pre>\n<\/div>\n<h3>\u7a7a\u51fd\u6570<\/h3>\n<ul>\n<li>\u7a7a\u51fd\u6570\u4e0d\u4f7f\u7528 new Function() \u7684\u5f62\u5f0f<\/li>\n<\/ul>\n<pre>var emptyFunction = function () {};<\/pre>\n<ul>\n<li>\u5bf9\u4e8e\u6027\u80fd\u6709\u9ad8\u8981\u6c42\u7684\u573a\u5408\uff0c\u5efa\u8bae\u5b58\u5728\u4e00\u4e2a\u7a7a\u51fd\u6570\u7684\u5e38\u91cf\uff0c\u4f9b\u591a\u5904\u4f7f\u7528\u5171\u4eab<\/li>\n<\/ul>\n<pre>var EMPTY_FUNCTION = function () {};\r\n\r\nfunction MyClass() {\r\n}\r\n\r\nMyClass.prototype.abstractMethod = EMPTY_FUNCTION;\r\nMyClass.prototype.hooks.before = EMPTY_FUNCTION;\r\nMyClass.prototype.hooks.after = EMPTY_FUNCTION;<\/pre>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>\u51fd\u6570\u957f\u5ea6 \u4e00\u4e2a\u51fd\u6570\u7684\u957f\u5ea6\u63a7\u5236\u5728 50 \u884c\u4ee5\u5185\u3002 \u5c06\u8fc7\u591a\u7684\u903b\u8f91\u5355\u5143\u6df7\u5728\u4e00\u4e2a\u5927\u51fd\u6570\u4e2d\uff0c\u6613\u5bfc\u81f4\u96be\u4ee5\u7ef4\u62a4\u3002\u4e00\u4e2a\u6e05\u6670\u6613\u61c2 [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [4],
+    "tags": [],
+    "_links": {
+        "self": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/295"
+        }],
+        "collection": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts"
+        }],
+        "about": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/types\/post"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/users\/1"
+        }],
+        "replies": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/comments?post=295"
+        }],
+        "version-history": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/295\/revisions"
+        }],
+        "wp:attachment": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/media?parent=295"
+        }],
+        "wp:term": [{
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/categories?post=295"
+        }, {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/tags?post=295"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 297,
+    "date": "2018-04-03T14:14:50",
+    "date_gmt": "2018-04-03T06:14:50",
+    "guid": {
+        "rendered": "http:\/\/192.168.5.9:8081\/?p=297"
+    },
+    "modified": "2018-04-03T14:14:50",
+    "modified_gmt": "2018-04-03T06:14:50",
+    "slug": "%e5%af%b9%e8%b1%a1-2",
+    "status": "publish",
+    "type": "post",
+    "link": "http:\/\/192.168.5.9:8081\/2018\/04\/03\/%e5%af%b9%e8%b1%a1-2\/",
+    "title": {
+        "rendered": "\u5bf9\u8c61"
+    },
+    "content": {
+        "rendered": "<h3>\u7c7b\u7684\u7ee7\u627f\u65b9\u6848\uff0c\u5b9e\u73b0\u65f6\u9700\u8981\u4fee\u6b63 constructor<\/h3>\n<p>\u901a\u5e38\u4f7f\u7528\u5176\u4ed6 library \u7684\u7c7b\u7ee7\u627f\u65b9\u6848\u90fd\u4f1a\u8fdb\u884c constructor \u4fee\u6b63\u3002\u5982\u679c\u662f\u81ea\u5df1\u5b9e\u73b0\u7684\u7c7b\u7ee7\u627f\u65b9\u6848\uff0c\u9700\u8981\u8fdb\u884c constructor \u4fee\u6b63\u3002<\/p>\n<pre>\/**\r\n * \u6784\u5efa\u7c7b\u4e4b\u95f4\u7684\u7ee7\u627f\u5173\u7cfb\r\n *\r\n * @param {Function} subClass \u5b50\u7c7b\u51fd\u6570\r\n * @param {Function} superClass \u7236\u7c7b\u51fd\u6570\r\n *\/\r\nfunction inherits(subClass, superClass) {\r\n    var F = new Function();\r\n    F.prototype = superClass.prototype;\r\n    subClass.prototype = new F();\r\n    subClass.prototype.constructor = subClass;\r\n}<\/pre>\n<h3>\u58f0\u660e\u7c7b\u65f6\uff0c\u4fdd\u8bc1 constructor \u7684\u6b63\u786e\u6027<\/h3>\n<pre>function Animal(name) {\r\n    this.name = name;\r\n}\r\n\r\n\/\/ \u76f4\u63a5prototype\u7b49\u4e8e\u5bf9\u8c61\u65f6\uff0c\u9700\u8981\u4fee\u6b63constructor\r\nAnimal.prototype = {\r\n    constructor: Animal,\r\n\r\n    jump: function () {\r\n        alert('animal ' + this.name + ' jump');\r\n    }\r\n};\r\n\r\n\/\/ \u8fd9\u79cd\u65b9\u5f0f\u6269\u5c55prototype\u5219\u65e0\u9700\u7406\u4f1aconstructor\r\nAnimal.prototype.jump = function () {\r\n    alert('animal ' + this.name + ' jump');\r\n};<\/pre>\n<h3>\u5c5e\u6027\u5728\u6784\u9020\u51fd\u6570\u4e2d\u58f0\u660e\uff0c\u65b9\u6cd5\u5728\u539f\u578b\u4e2d\u58f0\u660e<\/h3>\n<p>\u539f\u578b\u5bf9\u8c61\u7684\u6210\u5458\u88ab\u6240\u6709\u5b9e\u4f8b\u5171\u4eab\uff0c\u80fd\u8282\u7ea6\u5185\u5b58\u5360\u7528\u3002\u6240\u4ee5\u7f16\u7801\u65f6\u6211\u4eec\u5e94\u8be5\u9075\u5b88\u8fd9\u6837\u7684\u539f\u5219\uff1a\u539f\u578b\u5bf9\u8c61\u5305\u542b\u7a0b\u5e8f\u4e0d\u4f1a\u4fee\u6539\u7684\u6210\u5458\uff0c\u5982\u65b9\u6cd5\u51fd\u6570\u6216\u914d\u7f6e\u9879\u3002<\/p>\n<pre>function TextNode(value, engine) {\r\n    this.value = value;\r\n    this.engine = engine;\r\n}\r\n\r\nTextNode.prototype.clone = function () {\r\n    return this;\r\n};<\/pre>\n<h3>\u81ea\u5b9a\u4e49\u4e8b\u4ef6\u7684 \u4e8b\u4ef6\u540d \u5fc5\u987b\u5168\u5c0f\u5199<\/h3>\n<p>\u5728 JavaScript \u5e7f\u6cdb\u5e94\u7528\u7684\u6d4f\u89c8\u5668\u73af\u5883\uff0c\u7edd\u5927\u591a\u6570 DOM \u4e8b\u4ef6\u540d\u79f0\u90fd\u662f\u5168\u5c0f\u5199\u7684\u3002\u4e3a\u4e86\u9075\u5faa\u5927\u591a\u6570 JavaScript \u5f00\u53d1\u8005\u7684\u4e60\u60ef\uff0c\u5728\u8bbe\u8ba1\u81ea\u5b9a\u4e49\u4e8b\u4ef6\u65f6\uff0c\u4e8b\u4ef6\u540d\u4e5f\u5e94\u8be5\u5168\u5c0f\u5199\u3002<\/p>\n<h3>\u81ea\u5b9a\u4e49\u4e8b\u4ef6\u53ea\u80fd\u6709\u4e00\u4e2a event \u53c2\u6570\u3002\u5982\u679c\u4e8b\u4ef6\u9700\u8981\u4f20\u9012\u8f83\u591a\u4fe1\u606f\uff0c\u5e94\u4ed4\u7ec6\u8bbe\u8ba1\u4e8b\u4ef6\u5bf9\u8c61<\/h3>\n<p>\u4e00\u4e2a\u4e8b\u4ef6\u5bf9\u8c61\u7684\u597d\u5904\u6709\uff1a<\/p>\n<ol>\n<li>\u987a\u5e8f\u65e0\u5173\uff0c\u907f\u514d\u4e8b\u4ef6\u76d1\u542c\u8005\u9700\u8981\u8bb0\u5fc6\u53c2\u6570\u987a\u5e8f\u3002<\/li>\n<li>\u6bcf\u4e2a\u4e8b\u4ef6\u4fe1\u606f\u90fd\u53ef\u4ee5\u6839\u636e\u9700\u8981\u63d0\u4f9b\u6216\u8005\u4e0d\u63d0\u4f9b\uff0c\u66f4\u81ea\u7531\u3002<\/li>\n<li>\u6269\u5c55\u65b9\u4fbf\uff0c\u672a\u6765\u6dfb\u52a0\u4e8b\u4ef6\u4fe1\u606f\u65f6\uff0c\u65e0\u9700\u8003\u8651\u4f1a\u7834\u574f\u76d1\u542c\u5668\u53c2\u6570\u5f62\u5f0f\u800c\u65e0\u6cd5\u5411\u540e\u517c\u5bb9\u3002<\/li>\n<\/ol>\n<h3>\u8bbe\u8ba1\u81ea\u5b9a\u4e49\u4e8b\u4ef6\u65f6\uff0c\u5e94\u8003\u8651\u7981\u6b62\u9ed8\u8ba4\u884c\u4e3a<\/h3>\n<p>\u5e38\u89c1\u7981\u6b62\u9ed8\u8ba4\u884c\u4e3a\u7684\u65b9\u5f0f\u6709\u4e24\u79cd\uff1a<\/p>\n<ol>\n<li>\u4e8b\u4ef6\u76d1\u542c\u51fd\u6570\u4e2d return false\u3002<\/li>\n<li>\u4e8b\u4ef6\u5bf9\u8c61\u4e2d\u5305\u542b\u7981\u6b62\u9ed8\u8ba4\u884c\u4e3a\u7684\u65b9\u6cd5\uff0c\u5982 preventDefault\u3002<\/li>\n<\/ol>\n<h3>\u907f\u514d\u4f7f\u7528\u76f4\u63a5 eval \u51fd\u6570<\/h3>\n<p>\u76f4\u63a5 eval\uff0c\u6307\u7684\u662f\u4ee5\u51fd\u6570\u65b9\u5f0f\u8c03\u7528 eval \u7684\u8c03\u7528\u65b9\u6cd5\u3002\u76f4\u63a5 eval \u8c03\u7528\u6267\u884c\u4ee3\u7801\u7684\u4f5c\u7528\u57df\u4e3a\u672c\u5730\u4f5c\u7528\u57df\uff0c\u5e94\u5f53\u907f\u514d\u3002<\/p>\n<p>\u5982\u679c\u6709\u7279\u6b8a\u60c5\u51b5\u9700\u8981\u4f7f\u7528\u76f4\u63a5 eval\uff0c\u9700\u5728\u4ee3\u7801\u4e2d\u7528\u8be6\u7ec6\u7684\u6ce8\u91ca\u8bf4\u660e\u4e3a\u4f55\u5fc5\u987b\u4f7f\u7528\u76f4\u63a5 eval\uff0c\u4e0d\u80fd\u4f7f\u7528\u5176\u5b83\u52a8\u6001\u6267\u884c\u4ee3\u7801\u7684\u65b9\u5f0f\uff0c\u540c\u65f6\u9700\u8981\u5176\u4ed6\u8d44\u6df1\u5de5\u7a0b\u5e08\u8fdb\u884c Code Review\u3002<\/p>\n<h3>\u4f7f\u7528 new Function \u6267\u884c\u52a8\u6001\u4ee3\u7801<\/h3>\n<p>\u901a\u8fc7 new Function \u751f\u6210\u7684\u51fd\u6570\u4f5c\u7528\u57df\u662f\u5168\u5c40\u4f7f\u7528\u57df\uff0c\u4e0d\u4f1a\u5f71\u54cd\u5f53\u5f53\u524d\u7684\u672c\u5730\u4f5c\u7528\u57df\u3002\u5982\u679c\u6709\u52a8\u6001\u4ee3\u7801\u6267\u884c\u7684\u9700\u6c42\uff0c\u5efa\u8bae\u4f7f\u7528 new Function\u3002<\/p>\n<div>\n<pre>var handler = new Function('x', 'y', 'return x + y;');\r\nvar result = handler($('#x').val(), $('#y').val());<\/pre>\n<\/div>\n<h3>\u5c3d\u91cf\u4e0d\u8981\u4f7f\u7528 with<\/h3>\n<p>\u4f7f\u7528 with \u53ef\u80fd\u4f1a\u589e\u52a0\u4ee3\u7801\u7684\u590d\u6742\u5ea6\uff0c\u4e0d\u5229\u4e8e\u9605\u8bfb\u548c\u7ba1\u7406\uff1b\u4e5f\u4f1a\u5bf9\u6027\u80fd\u6709\u5f71\u54cd\u3002\u5927\u591a\u6570\u4f7f\u7528 with \u7684\u573a\u666f\u90fd\u80fd\u4f7f\u7528\u5176\u4ed6\u65b9\u5f0f\u8f83\u597d\u7684\u66ff\u4ee3\u3002\u6240\u4ee5\uff0c\u5c3d\u91cf\u4e0d\u8981\u4f7f\u7528 with\u3002<\/p>\n<h3>\u51cf\u5c11 delete \u7684\u4f7f\u7528<\/h3>\n<p>\u5982\u679c\u6ca1\u6709\u7279\u522b\u7684\u9700\u6c42\uff0c\u51cf\u5c11\u6216\u907f\u514d\u4f7f\u7528 delete\u3002delete \u7684\u4f7f\u7528\u4f1a\u7834\u574f\u90e8\u5206 JavaScript \u5f15\u64ce\u7684\u6027\u80fd\u4f18\u5316\u3002<\/p>\n<h3>\u5904\u7406 delete \u53ef\u80fd\u4ea7\u751f\u7684\u5f02\u5e38<\/h3>\n<p>\u5bf9\u4e8e\u6709\u88ab\u904d\u5386\u9700\u6c42\uff0c\u4e14\u503c null \u88ab\u8ba4\u4e3a\u5177\u6709\u4e1a\u52a1\u903b\u8f91\u610f\u4e49\u7684\u503c\u7684\u5bf9\u8c61\uff0c\u79fb\u9664\u67d0\u4e2a\u5c5e\u6027\u5fc5\u987b\u4f7f\u7528 delete \u64cd\u4f5c\u3002<\/p>\n<p>\u5728\u4e25\u683c\u6a21\u5f0f\u6216 IE \u4e0b\u4f7f\u7528 delete \u65f6\uff0c\u4e0d\u80fd\u88ab\u5220\u9664\u7684\u5c5e\u6027\u4f1a\u629b\u51fa\u5f02\u5e38\uff0c\u56e0\u6b64\u5728\u4e0d\u786e\u5b9a\u5c5e\u6027\u662f\u5426\u53ef\u4ee5\u5220\u9664\u7684\u60c5\u51b5\u4e0b\uff0c\u5efa\u8bae\u6dfb\u52a0 try-catch \u5757\u3002<\/p>\n<p>\u793a\u4f8b\uff1a<\/p>\n<div>\n<pre>try {\r\n    delete o.x;\r\n}\r\ncatch (deleteError) {\r\n    o.x = null;\r\n}<\/pre>\n<\/div>\n<h3>\u907f\u514d\u4fee\u6539\u5916\u90e8\u4f20\u5165\u7684\u5bf9\u8c61<\/h3>\n<p>JavaScript \u56e0\u5176\u811a\u672c\u8bed\u8a00\u7684\u52a8\u6001\u7279\u6027\uff0c\u5f53\u4e00\u4e2a\u5bf9\u8c61\u672a\u88ab seal \u6216 freeze \u65f6\uff0c\u53ef\u4ee5\u4efb\u610f\u6dfb\u52a0\u3001\u5220\u9664\u3001\u4fee\u6539\u5c5e\u6027\u503c\u3002<\/p>\n<p>\u4f46\u662f\u968f\u610f\u5730\u5bf9 \u975e\u81ea\u8eab\u63a7\u5236\u7684\u5bf9\u8c61 \u8fdb\u884c\u4fee\u6539\uff0c\u5f88\u5bb9\u6613\u9020\u6210\u4ee3\u7801\u5728\u4e0d\u53ef\u9884\u77e5\u7684\u60c5\u51b5\u4e0b\u51fa\u73b0\u95ee\u9898\u3002\u56e0\u6b64\uff0c\u8bbe\u8ba1\u826f\u597d\u7684\u7ec4\u4ef6\u3001\u51fd\u6570\u5e94\u8be5\u907f\u514d\u5bf9\u5916\u90e8\u4f20\u5165\u7684\u5bf9\u8c61\u7684\u4fee\u6539\u3002<\/p>\n<p>\u4e0b\u9762\u4ee3\u7801\u7684 selectNode \u65b9\u6cd5\u4fee\u6539\u4e86\u7531\u5916\u90e8\u4f20\u5165\u7684 datasource \u5bf9\u8c61\u3002\u5982\u679c datasource \u7528\u5728\u5176\u5b83\u573a\u5408\uff08\u5982\u53e6\u4e00\u4e2a Tree \u5b9e\u4f8b\uff09\u4e0b\uff0c\u4f1a\u9020\u6210\u72b6\u6001\u7684\u6df7\u4e71\u3002<\/p>\n<div>\n<pre>function Tree(datasource) {\r\n    this.datasource = datasource;\r\n}\r\n\r\nTree.prototype.selectNode = function (id) {\r\n    \/\/ \u4ecedatasource\u4e2d\u627e\u51fa\u8282\u70b9\u5bf9\u8c61\r\n    var node = this.findNode(id);\r\n    if (node) {\r\n        node.selected = true;\r\n        this.flushView();\r\n    }\r\n};<\/pre>\n<\/div>\n<p>\u5bf9\u4e8e\u6b64\u7c7b\u573a\u666f\uff0c\u9700\u8981\u4f7f\u7528\u989d\u5916\u7684\u5bf9\u8c61\u6765\u7ef4\u62a4\uff0c\u4f7f\u7528\u7531\u81ea\u8eab\u63a7\u5236\uff0c\u4e0d\u4e0e\u5916\u90e8\u4ea7\u751f\u4efb\u4f55\u4ea4\u4e92\u7684 selectedNodeIndex \u5bf9\u8c61\u6765\u7ef4\u62a4\u8282\u70b9\u7684\u9009\u4e2d\u72b6\u6001\uff0c\u4e0d\u5bf9 datasource \u4f5c\u4efb\u4f55\u4fee\u6539\u3002<\/p>\n<div>\n<pre>function Tree(datasource) {\r\n    this.datasource = datasource;\r\n    this.selectedNodeIndex = {};\r\n}\r\n\r\nTree.prototype.selectNode = function (id) {\r\n\r\n    \/\/ \u4ecedatasource\u4e2d\u627e\u51fa\u8282\u70b9\u5bf9\u8c61\r\n    var node = this.findNode(id);\r\n\r\n    if (node) {\r\n        this.selectedNodeIndex[id] = true;\r\n        this.flushView();\r\n    }\r\n\r\n};<\/pre>\n<\/div>\n<p>\u9664\u6b64\u4e4b\u5916\uff0c\u4e5f\u53ef\u4ee5\u901a\u8fc7 deepClone \u7b49\u624b\u6bb5\u5c06\u81ea\u8eab\u7ef4\u62a4\u7684\u5bf9\u8c61\u4e0e\u5916\u90e8\u4f20\u5165\u7684\u5206\u79bb\uff0c\u4fdd\u8bc1\u4e0d\u4f1a\u76f8\u4e92\u5f71\u54cd\u3002<\/p>\n<h3>\u5177\u5907\u5f3a\u7c7b\u578b\u7684\u8bbe\u8ba1<\/h3>\n<ul>\n<li>\u5982\u679c\u4e00\u4e2a\u5c5e\u6027\u88ab\u8bbe\u8ba1\u4e3a boolean \u7c7b\u578b\uff0c\u5219\u4e0d\u8981\u4f7f\u7528 1 \u6216 0 \u4f5c\u4e3a\u5176\u503c\u3002\u5bf9\u4e8e\u6807\u8bc6\u6027\u7684\u5c5e\u6027\uff0c\u5982\u5bf9\u4ee3\u7801\u4f53\u79ef\u6709\u4e25\u683c\u8981\u6c42\uff0c\u53ef\u4ee5\u4ece\u4e00\u5f00\u59cb\u5c31\u8bbe\u8ba1\u4e3a number \u7c7b\u578b\u4e14\u5c06 0 \u4f5c\u4e3a\u5426\u5b9a\u503c\u3002<\/li>\n<li>\u4ece DOM \u4e2d\u53d6\u51fa\u7684\u503c\u901a\u5e38\u4e3a string \u7c7b\u578b\uff0c\u5982\u679c\u6709\u5bf9\u8c61\u6216\u51fd\u6570\u7684\u63a5\u6536\u7c7b\u578b\u4e3a number \u7c7b\u578b\uff0c\u63d0\u524d\u4f5c\u597d\u8f6c\u6362\uff0c\u800c\u4e0d\u662f\u671f\u671b\u5bf9\u8c61\u3001\u51fd\u6570\u53ef\u4ee5\u5904\u7406\u591a\u7c7b\u578b\u7684\u503c\u3002<\/li>\n<\/ul>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>\u7c7b\u7684\u7ee7\u627f\u65b9\u6848\uff0c\u5b9e\u73b0\u65f6\u9700\u8981\u4fee\u6b63 constructor \u901a\u5e38\u4f7f\u7528\u5176\u4ed6 library \u7684\u7c7b\u7ee7\u627f\u65b9\u6848\u90fd\u4f1a\u8fdb\u884c co [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [4],
+    "tags": [],
+    "_links": {
+        "self": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/297"
+        }],
+        "collection": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts"
+        }],
+        "about": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/types\/post"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/users\/1"
+        }],
+        "replies": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/comments?post=297"
+        }],
+        "version-history": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/297\/revisions"
+        }],
+        "wp:attachment": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/media?parent=297"
+        }],
+        "wp:term": [{
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/categories?post=297"
+        }, {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/tags?post=297"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 299,
+    "date": "2018-04-03T14:17:35",
+    "date_gmt": "2018-04-03T06:17:35",
+    "guid": {
+        "rendered": "http:\/\/192.168.5.9:8081\/?p=299"
+    },
+    "modified": "2018-04-03T14:17:35",
+    "modified_gmt": "2018-04-03T06:17:35",
+    "slug": "%e6%a8%a1%e5%9d%97%e5%8c%96-3",
+    "status": "publish",
+    "type": "post",
+    "link": "http:\/\/192.168.5.9:8081\/2018\/04\/03\/%e6%a8%a1%e5%9d%97%e5%8c%96-3\/",
+    "title": {
+        "rendered": "\u6a21\u5757\u5316"
+    },
+    "content": {
+        "rendered": "<h3>\u4f7f\u7528 AMD \u4f5c\u4e3a\u6a21\u5757\u5b9a\u4e49<\/h3>\n<p>AMD \u4f5c\u4e3a\u7531\u793e\u533a\u8ba4\u53ef\u7684\u6a21\u5757\u5b9a\u4e49\u5f62\u5f0f\uff0c\u63d0\u4f9b\u591a\u79cd\u91cd\u8f7d\u63d0\u4f9b\u7075\u6d3b\u7684\u4f7f\u7528\u65b9\u5f0f\uff0c\u5e76\u4e14\u7edd\u5927\u591a\u6570\u4f18\u79c0\u7684 Library \u90fd\u652f\u6301 AMD\uff0c\u9002\u5408\u4f5c\u4e3a\u89c4\u8303\u3002<\/p>\n<p>\u76ee\u524d\uff0c\u6bd4\u8f83\u6210\u719f\u7684 AMD Loader \u6709\uff1a<\/p>\n<ul>\n<li>\u5b98\u65b9\u5b9e\u73b0\u7684 <a href=\"http:\/\/requirejs.org\/\" target=\"_blank\" rel=\"nofollow noopener\">requirejs<\/a><\/li>\n<\/ul>\n<h3>\u6a21\u5757 id \u5fc5\u987b\u7b26\u5408\u6807\u51c6<\/h3>\n<p>\u6a21\u5757 id \u5fc5\u987b\u7b26\u5408\u4ee5\u4e0b\u7ea6\u675f\u6761\u4ef6\uff1a<\/p>\n<ol>\n<li>\u7c7b\u578b\u4e3a string\uff0c\u5e76\u4e14\u662f\u7531 \/ \u5206\u5272\u7684\u4e00\u7cfb\u5217 terms \u6765\u7ec4\u6210\u3002\u4f8b\u5982\uff1athis\/is\/a\/module\u3002<\/li>\n<li>term \u5e94\u8be5\u7b26\u5408 [a-zA-Z0-9_-]+ \u89c4\u5219\u3002<\/li>\n<li>\u4e0d\u5e94\u8be5\u6709 .js \u540e\u7f00\u3002<\/li>\n<li>\u8ddf\u6587\u4ef6\u7684\u8def\u5f84\u4fdd\u6301\u4e00\u81f4\u3002<\/li>\n<\/ol>\n<h3>\u5b9a\u4e49\u6a21\u5757\u65f6\u4e0d\u8981\u6307\u660e id \u548c dependencies<\/h3>\n<p>\u5728 AMD \u7684\u8bbe\u8ba1\u601d\u60f3\u91cc\uff0c\u6a21\u5757\u540d\u79f0\u662f\u548c\u6240\u5728\u8def\u5f84\u76f8\u5173\u7684\uff0c\u533f\u540d\u7684\u6a21\u5757\u66f4\u5229\u4e8e\u5c01\u5305\u548c\u8fc1\u79fb\u3002\u6a21\u5757\u4f9d\u8d56\u5e94\u5728\u6a21\u5757\u5b9a\u4e49\u5185\u90e8\u901a\u8fc7 local require \u5f15\u7528\u3002<\/p>\n<p>\u6240\u4ee5\uff0c\u63a8\u8350\u4f7f\u7528 define(factory) \u7684\u5f62\u5f0f\u8fdb\u884c\u6a21\u5757\u5b9a\u4e49\u3002<\/p>\n<p>\u793a\u4f8b\uff1a<\/p>\n<div>\n<pre>define(\r\n    function (require) {\r\n    }\r\n);<\/pre>\n<h3>\u4f7f\u7528 return \u6765\u8fd4\u56de\u6a21\u5757\u5b9a\u4e49<\/h3>\n<\/div>\n<p>\u4f7f\u7528 return \u53ef\u4ee5\u51cf\u5c11 factory \u63a5\u6536\u7684\u53c2\u6570\uff08\u4e0d\u9700\u8981\u63a5\u6536 exports \u548c module\uff09\uff0c\u5728\u6ca1\u6709 AMD Loader \u7684\u573a\u666f\u4e0b\u4e5f\u66f4\u5bb9\u6613\u8fdb\u884c\u7b80\u5355\u7684\u5904\u7406\u6765\u4f2a\u9020\u4e00\u4e2a Loader\u3002<\/p>\n<p>\u793a\u4f8b\uff1a<\/p>\n<div>\n<pre>define(\r\n    function (require) {\r\n        var exports = {};\r\n\r\n        \/\/ ...\r\n\r\n        return exports;\r\n    }\r\n);<\/pre>\n<h3>\u5168\u5c40\u8fd0\u884c\u73af\u5883\u4e2d\uff0crequire \u5fc5\u987b\u4ee5 async require \u5f62\u5f0f\u8c03\u7528<\/h3>\n<\/div>\n<p>\u6a21\u5757\u7684\u52a0\u8f7d\u8fc7\u7a0b\u662f\u5f02\u6b65\u7684\uff0c\u540c\u6b65\u8c03\u7528\u5e76\u65e0\u6cd5\u4fdd\u8bc1\u5f97\u5230\u6b63\u786e\u7684\u7ed3\u679c\u3002<\/p>\n<p>\u793a\u4f8b\uff1a<\/p>\n<div>\n<pre>\/\/ good\r\nrequire(['foo'], function (foo) {\r\n});\r\n\r\n\/\/ bad\r\nvar foo = require('foo');<\/pre>\n<h3>\u6a21\u5757\u5b9a\u4e49\u4e2d\u53ea\u5141\u8bb8\u4f7f\u7528 local require\uff0c\u4e0d\u5141\u8bb8\u4f7f\u7528 global require<\/h3>\n<ol>\n<li>\u5728\u6a21\u5757\u5b9a\u4e49\u4e2d\u4f7f\u7528 global require\uff0c\u5bf9\u5c01\u88c5\u6027\u662f\u4e00\u79cd\u7834\u574f\u3002<\/li>\n<li>\u5728 AMD \u91cc\uff0cglobal require \u662f\u53ef\u4ee5\u88ab\u91cd\u547d\u540d\u7684\u3002\u5e76\u4e14 Loader \u751a\u81f3\u6ca1\u6709\u5168\u5c40\u7684 require \u53d8\u91cf\uff0c\u800c\u662f\u7528 Loader \u540d\u79f0\u505a\u4e3a global require\u3002\u6a21\u5757\u5b9a\u4e49\u4e0d\u5e94\u8be5\u4f9d\u8d56\u4f7f\u7528\u7684 Loader\u3002<\/li>\n<\/ol>\n<\/div>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>\u4f7f\u7528 AMD \u4f5c\u4e3a\u6a21\u5757\u5b9a\u4e49 AMD \u4f5c\u4e3a\u7531\u793e\u533a\u8ba4\u53ef\u7684\u6a21\u5757\u5b9a\u4e49\u5f62\u5f0f\uff0c\u63d0\u4f9b\u591a\u79cd\u91cd\u8f7d\u63d0\u4f9b\u7075\u6d3b\u7684\u4f7f\u7528\u65b9\u5f0f\uff0c\u5e76\u4e14\u7edd\u5927\u591a\u6570 [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [4],
+    "tags": [],
+    "_links": {
+        "self": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/299"
+        }],
+        "collection": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts"
+        }],
+        "about": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/types\/post"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/users\/1"
+        }],
+        "replies": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/comments?post=299"
+        }],
+        "version-history": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/299\/revisions"
+        }],
+        "wp:attachment": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/media?parent=299"
+        }],
+        "wp:term": [{
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/categories?post=299"
+        }, {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/tags?post=299"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 301,
+    "date": "2018-04-03T14:21:29",
+    "date_gmt": "2018-04-03T06:21:29",
+    "guid": {
+        "rendered": "http:\/\/192.168.5.9:8081\/?p=301"
+    },
+    "modified": "2018-04-03T14:24:15",
+    "modified_gmt": "2018-04-03T06:24:15",
+    "slug": "dom",
+    "status": "publish",
+    "type": "post",
+    "link": "http:\/\/192.168.5.9:8081\/2018\/04\/03\/dom\/",
+    "title": {
+        "rendered": "DOM"
+    },
+    "content": {
+        "rendered": "<h3>\u5143\u7d20\u83b7\u53d6<\/h3>\n<ul>\n<li>\u5bf9\u4e8e\u5355\u4e2a\u5143\u7d20\uff0c\u5c3d\u53ef\u80fd\u4f7f\u7528 document.getElementById \u83b7\u53d6\uff0c\u907f\u514d\u4f7f\u7528document.all\u3002<\/li>\n<li>\u5bf9\u4e8e\u591a\u4e2a\u5143\u7d20\u7684\u96c6\u5408\uff0c\u5c3d\u53ef\u80fd\u4f7f\u7528 context.getElementsByTagName \u83b7\u53d6\u3002\u5176\u4e2d context \u53ef\u4ee5\u4e3a document \u6216\u5176\u4ed6\u5143\u7d20\u3002\u6307\u5b9a tagName \u53c2\u6570\u4e3a * \u53ef\u4ee5\u83b7\u5f97\u6240\u6709\u5b50\u5143\u7d20\u3002<\/li>\n<li>\u904d\u5386\u5143\u7d20\u96c6\u5408\u65f6\uff0c\u5c3d\u91cf\u7f13\u5b58\u96c6\u5408\u957f\u5ea6\u3002\u5982\u9700\u591a\u6b21\u64cd\u4f5c\u540c\u4e00\u96c6\u5408\uff0c\u5219\u5e94\u5c06\u96c6\u5408\u8f6c\u4e3a\u6570\u7ec4\u3002<\/li>\n<\/ul>\n<p>\u539f\u751f\u83b7\u53d6\u5143\u7d20\u96c6\u5408\u7684\u7ed3\u679c\u5e76\u4e0d\u76f4\u63a5\u5f15\u7528 DOM \u5143\u7d20\uff0c\u800c\u662f\u5bf9\u7d22\u5f15\u8fdb\u884c\u8bfb\u53d6\uff0c\u6240\u4ee5 DOM \u7ed3\u6784\u7684\u6539\u53d8\u4f1a\u5b9e\u65f6\u53cd\u6620\u5230\u7ed3\u679c\u4e2d\u3002<\/p>\n<p>\u793a\u4f8b\uff1a<\/p>\n<div>\n<pre>&lt;div&gt;&lt;\/div&gt;\r\n&lt;span&gt;&lt;\/span&gt;\r\n\r\n&lt;script&gt;\r\nvar elements = document.getElementsByTagName('*');\r\n\r\n\/\/ \u663e\u793a\u4e3a DIV\r\nalert(elements[0].tagName);\r\n\r\nvar div = elements[0];\r\nvar p = document.createElement('p');\r\ndocpment.body.insertBefore(p, div);\r\n\r\n\/\/ \u663e\u793a\u4e3a P\r\nalert(elements[0].tagName);\r\n&lt;\/script&gt;<\/pre>\n<blockquote><p>\u83b7\u53d6\u5143\u7d20\u7684\u76f4\u63a5\u5b50\u5143\u7d20\u65f6\u4f7f\u7528 children\u3002\u907f\u514d\u4f7f\u7528childNodes\uff0c\u9664\u975e\u9884\u671f\u662f\u9700\u8981\u5305\u542b\u6587\u672c\u3001\u6ce8\u91ca\u548c\u5c5e\u6027\u7c7b\u578b\u7684\u8282\u70b9<\/p><\/blockquote>\n<h3>\u6837\u5f0f\u83b7\u53d6<\/h3>\n<p>\u83b7\u53d6\u5143\u7d20\u5b9e\u9645\u6837\u5f0f\u4fe1\u606f\u65f6\uff0c\u5e94\u4f7f\u7528 getComputedStyle \u6216 currentStyle\u3002<\/p>\n<p>\u901a\u8fc7 style \u53ea\u80fd\u83b7\u5f97\u5185\u8054\u5b9a\u4e49\u6216\u901a\u8fc7 JavaScript \u76f4\u63a5\u8bbe\u7f6e\u7684\u6837\u5f0f\u3002\u901a\u8fc7 CSS class \u8bbe\u7f6e\u7684\u5143\u7d20\u6837\u5f0f\u65e0\u6cd5\u76f4\u63a5\u901a\u8fc7 style \u83b7\u53d6\u3002<\/p>\n<h3>\u6837\u5f0f\u8bbe\u7f6e<\/h3>\n<p>\u5c3d\u53ef\u80fd\u901a\u8fc7\u4e3a\u5143\u7d20\u6dfb\u52a0\u9884\u5b9a\u4e49\u7684 className \u6765\u6539\u53d8\u5143\u7d20\u6837\u5f0f\uff0c\u907f\u514d\u76f4\u63a5\u64cd\u4f5c style \u8bbe\u7f6e\u3002<\/p>\n<p>\u901a\u8fc7 style \u5bf9\u8c61\u8bbe\u7f6e\u5143\u7d20\u6837\u5f0f\u65f6\uff0c\u5bf9\u4e8e\u5e26\u5355\u4f4d\u975e 0 \u503c\u7684\u5c5e\u6027\uff0c\u4e0d\u5141\u8bb8\u7701\u7565\u5355\u4f4d\u3002<\/p>\n<p>\u9664\u4e86 IE\uff0c\u6807\u51c6\u6d4f\u89c8\u5668\u4f1a\u5ffd\u7565\u4e0d\u89c4\u8303\u7684\u5c5e\u6027\u503c\uff0c\u5bfc\u81f4\u517c\u5bb9\u6027\u95ee\u9898\u3002<\/p>\n<h3>DOM \u64cd\u4f5c<\/h3>\n<ul>\n<li>\u64cd\u4f5c DOM \u65f6\uff0c\u5c3d\u91cf\u51cf\u5c11\u9875\u9762 reflow<\/li>\n<\/ul>\n<p style=\"padding-left: 60px;\">\u9875\u9762 reflow \u662f\u975e\u5e38\u8017\u65f6\u7684\u884c\u4e3a\uff0c\u975e\u5e38\u5bb9\u6613\u5bfc\u81f4\u6027\u80fd\u74f6\u9888\u3002\u4e0b\u9762\u4e00\u4e9b\u573a\u666f\u4f1a\u89e6\u53d1\u6d4f\u89c8\u5668\u7684reflow\uff1a<\/p>\n<blockquote>\n<ol>\n<li>DOM\u5143\u7d20\u7684\u6dfb\u52a0\u3001\u4fee\u6539\uff08\u5185\u5bb9\uff09\u3001\u5220\u9664\u3002<\/li>\n<li>\u5e94\u7528\u65b0\u7684\u6837\u5f0f\u6216\u8005\u4fee\u6539\u4efb\u4f55\u5f71\u54cd\u5143\u7d20\u5e03\u5c40\u7684\u5c5e\u6027\u3002<\/li>\n<li>Resize\u6d4f\u89c8\u5668\u7a97\u53e3\u3001\u6eda\u52a8\u9875\u9762\u3002<\/li>\n<li>\u8bfb\u53d6\u5143\u7d20\u7684\u67d0\u4e9b\u5c5e\u6027\uff08offsetLeft\u3001offsetTop\u3001offsetHeight\u3001offsetWidth\u3001scrollTop\/Left\/Width\/Height\u3001clientTop\/Left\/Width\/Height\u3001getComputedStyle()\u3001currentStyle(in IE)) \u3002<\/li>\n<\/ol>\n<\/blockquote>\n<ul>\n<li>\u5c3d\u91cf\u51cf\u5c11 DOM \u64cd\u4f5c<\/li>\n<\/ul>\n<p style=\"padding-left: 60px;\">DOM \u64cd\u4f5c\u4e5f\u662f\u975e\u5e38\u8017\u65f6\u7684\u4e00\u79cd\u64cd\u4f5c\uff0c\u51cf\u5c11 DOM \u64cd\u4f5c\u6709\u52a9\u4e8e\u63d0\u9ad8\u6027\u80fd\u3002\u4e3e\u4e00\u4e2a\u7b80\u5355\u7684\u4f8b\u5b50\uff0c\u6784\u5efa\u4e00\u4e2a\u5217\u8868\u3002\u6211\u4eec\u53ef\u4ee5\u7528\u4e24\u79cd\u65b9\u5f0f\uff1a<\/p>\n<ol>\n<li>\u5728\u5faa\u73af\u4f53\u4e2d createElement \u5e76 append \u5230\u7236\u5143\u7d20\u4e2d\u3002<\/li>\n<li>\u5728\u5faa\u73af\u4f53\u4e2d\u62fc\u63a5 HTML \u5b57\u7b26\u4e32\uff0c\u5faa\u73af\u7ed3\u675f\u540e\u5199\u7236\u5143\u7d20\u7684 innerHTML\u3002<\/li>\n<\/ol>\n<p>\u7b2c\u4e00\u79cd\u65b9\u6cd5\u770b\u8d77\u6765\u6bd4\u8f83\u6807\u51c6\uff0c\u4f46\u662f\u6bcf\u6b21\u5faa\u73af\u90fd\u4f1a\u5bf9 DOM \u8fdb\u884c\u64cd\u4f5c\uff0c\u6027\u80fd\u6781\u4f4e\u3002\u5728\u8fd9\u91cc\u63a8\u8350\u4f7f\u7528\u7b2c\u4e8c\u79cd\u65b9\u6cd5\u3002<\/p>\n<h3>DOM \u4e8b\u4ef6<\/h3>\n<ul>\n<li>\u4f18\u5148\u4f7f\u7528 addEventListener \/ attachEvent \u7ed1\u5b9a\u4e8b\u4ef6\uff0c\u907f\u514d\u76f4\u63a5\u5728 HTML \u5c5e\u6027\u4e2d\u6216 DOM \u7684 expando \u5c5e\u6027\u7ed1\u5b9a\u4e8b\u4ef6\u5904\u7406\u3002<\/li>\n<\/ul>\n<p style=\"padding-left: 60px;\">expando \u5c5e\u6027\u7ed1\u5b9a\u4e8b\u4ef6\u5bb9\u6613\u5bfc\u81f4\u4e92\u76f8\u8986\u76d6\u3002<\/p>\n<ul>\n<li>\u4f7f\u7528 addEventListener \u65f6\u7b2c\u4e09\u4e2a\u53c2\u6570\u4f7f\u7528 false<\/li>\n<\/ul>\n<p style=\"padding-left: 60px;\">\u6807\u51c6\u6d4f\u89c8\u5668\u4e2d\u7684 addEventListener \u53ef\u4ee5\u901a\u8fc7\u7b2c\u4e09\u4e2a\u53c2\u6570\u6307\u5b9a\u4e24\u79cd\u65f6\u95f4\u89e6\u53d1\u6a21\u578b\uff1a\u5192\u6ce1\u548c\u6355\u83b7\u3002\u800c IE \u7684 attachEvent \u4ec5\u652f\u6301\u5192\u6ce1\u7684\u4e8b\u4ef6\u89e6\u53d1\u3002\u6240\u4ee5\u4e3a\u4e86\u4fdd\u6301\u4e00\u81f4\u6027\uff0c\u901a\u5e38 addEventListener \u7684\u7b2c\u4e09\u4e2a\u53c2\u6570\u90fd\u4e3a false\u3002<\/p>\n<ul>\n<li>\u5728\u6ca1\u6709\u4e8b\u4ef6\u81ea\u52a8\u7ba1\u7406\u7684\u6846\u67b6\u652f\u6301\u4e0b\uff0c\u5e94\u6301\u6709\u76d1\u542c\u5668\u51fd\u6570\u7684\u5f15\u7528\uff0c\u5728\u9002\u5f53\u65f6\u5019\uff08\u5143\u7d20\u91ca\u653e\u3001\u9875\u9762\u5378\u8f7d\u7b49\uff09\u79fb\u9664\u6dfb\u52a0\u7684\u76d1\u542c\u5668\u3002<\/li>\n<\/ul>\n<\/div>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>\u5143\u7d20\u83b7\u53d6 \u5bf9\u4e8e\u5355\u4e2a\u5143\u7d20\uff0c\u5c3d\u53ef\u80fd\u4f7f\u7528 document.getElementById \u83b7\u53d6\uff0c\u907f\u514d\u4f7f\u7528docume [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [],
+    "categories": [4],
+    "tags": [],
+    "_links": {
+        "self": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/301"
+        }],
+        "collection": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts"
+        }],
+        "about": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/types\/post"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/users\/1"
+        }],
+        "replies": [{
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/comments?post=301"
+        }],
+        "version-history": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/posts\/301\/revisions"
+        }],
+        "wp:attachment": [{
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/media?parent=301"
+        }],
+        "wp:term": [{
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/categories?post=301"
+        }, {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "http:\/\/192.168.5.9:8081\/wp-json\/wp\/v2\/tags?post=301"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}]
