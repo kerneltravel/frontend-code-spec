@@ -53,8 +53,8 @@ export default {
         };
     },
     created() {
-        Axios.get('http://192.168.5.9:8081/wp-json/wp/v2/categories?orderby=id')
-        // Axios.get('../static/json/nav.json?orderby=id')
+        // Axios.get('http://192.168.5.9:8081/wp-json/wp/v2/categories?orderby=id')
+        Axios.get('../static/json/nav.json?orderby=id')
             .then(respones => {
                 this.sideNav = respones.data;
                 this.isNavLoading = false; // 关闭加载动画
@@ -68,8 +68,8 @@ export default {
     methods: {
         getJsonData: function (categoryId, index) {
             if (this.nowIndex === index) return;
-            // Axios.get('../static/json/post' + categoryId + '.json')
-            Axios.get('http://192.168.5.9:8081/wp-json/wp/v2/posts?order=desc&per_page=100&order=asc&categories=' + categoryId)
+            Axios.get('../static/json/post' + categoryId + '.json')
+            // Axios.get('http://192.168.5.9:8081/wp-json/wp/v2/posts?order=desc&per_page=100&order=asc&categories=' + categoryId)
                 .then(res => {
                     this.jsonData = res.data;
                     this.isListLoading = false; // 关闭加载动画
